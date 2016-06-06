@@ -1,0 +1,61 @@
+# Ignore all emacs backup files
+*.*~
+
+# Ignore vim backup files.
+*.swp
+
+# Ignore data
+nltk_data/
+
+# Ignore node modules
+node_modules/
+
+# Thrift generated files
+gen-*
+
+# Avro generated files
+*.avro
+
+# Ignore Mac DS_Store Files
+.DS_Store
+
+# Python compiled files
+*.py[cod]
+
+# C extensions
+*.so
+
+# Packages
+*.egg
+*.egg-info
+dist
+build
+eggs
+parts
+bin
+var
+sdist
+develop-eggs
+.installed.cfg
+lib64
+
+# Installer logs
+pip-log.txt
+
+# Unit test / coverage reports
+.coverage
+.tox
+nosetests.xml
+
+# Translations
+*.mo
+
+# Mr Developer
+.mr.developer.cfg
+.project
+.pydevproject
+
+*.svg
+*.dot
+*.eps
+*.pdf

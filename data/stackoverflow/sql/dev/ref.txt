@@ -1,0 +1,333 @@
+10463	get records whose values are equal to maximum values in another table
+10463	join two tables on the maximum id
+10463	return all fields and distinct rows
+10766	find all tables with column named discount or discounts
+10766	mysql statement search all tables for one specific column?
+10766	retrieve tables containing columns matching some pattern
+10795	find all ids and names where name contain only alphanumeric characters
+10795	get records where string does not contain special characters
+10795	need mysql idiom for checking whether string contains any of a set of characters
+10865	for each user, select how many values he or she has of type 1 and 2
+10865	count of multiple columns per group after join
+10865	multiple count statements in 1 sql query without subselect
+11202	select all rows from the table where a specific column contains a digit
+11202	choose values containing a numeric digit
+11202	how to detect if a string contains atleast a number?
+12122	find projetstaches with the maximum project id
+12122	select all for the last projetid entered
+12122	select records whose column has the maxmimum column value
+12182	for hotel 5 on a given date and time, get the price and number of available clean and unclean rooms
+12182	join with two tables based on conditions
+12182	two queries, duplicate results
+12286	get the max eta for all products
+12286	get max value for each id by joining with another table
+12286	pervasive sql 10 join one table, onto another, onto another
+12551	select all execution requests involving database yourdbname if they are blocking
+12551	find blocking query running on database
+12551	finding blocking/locking queries in ms sql (mssql)
+13168	get the sum of subtotals from all transaction in the current month up to now, or zero if no transactions exist
+13168	fetch records from the current week
+13168	how to get month-to-date excluding today (month to yesterday?)
+13507	select null if any name exists in @mytable
+13507	fetch records not having a match in another table
+13507	optimizing a sql query finding entries that do not exist in table
+13714	get all tests with name similar to search keyword
+13714	fetch records with columns containing string
+13714	filter rows on the basis of "first name" + "last name" in sql
+13791	find all the codes that match a numeric pattern
+13791	fetch first non numeric character in column
+13791	how to only get non numeric part of column out
+14568	find the number of turfs for each gang
+14568	fetch count for group after join
+14568	sql combine 2 queries with join
+14672	get all tables with public schema and more than one tuple
+14672	fetch all non empty tables having a public schema
+14672	how to filter table according to data in postgres?
+14849	concatenate each player with the sum of his/her top ranks in a list of games 
+14849	get sum of group values based on condition and concatenate them into a string
+14849	mysql select group by count(*) union into delimited string?
+15217	get the member id who is friend with the one with member id 1
+15217	how shall i get my friends of friends using mysql and php
+15217	select records with column values that satisfy condition on same table
+15313	find the first 4 records that follow a bad record happened at the same location
+15313	select most recent k records for each group after join
+15313	sql query to find previous records
+1599	fetch past records closest to given date and sort
+1599	mysql and php: select all fields from the same date
+1599	select 200 most popular non-adult links with date earlier than 2014/02/25
+16012	given a list of dates, return the first month of the latest year that is within -2/+3 range of all the dates.
+16012	add or subtract months from current date
+16012	oracle - maximum year query error
+1612	getting the count of distinct rows from a table
+1612	histogram of number of times column values occur
+1612	sql to group based on the counts of a column
+16561	how many status 1 and status 2 tasks there are per worker
+16561	how to combine these two queries into one? (multiple joins against the same table)
+16561	sum column based on different conditions
+17614	fetch values without a match in another table
+17614	get the unique style and color combinations of legacy products that have not been marketed
+17614	select all that are not in another table
+17902	don't want the excess tag in my for xml path('td')
+17902	extract employee id and employee number from <td> elements in an xml document
+17902	fetch columns as xml
+17930	get the id, bdate, and value of the maximum bdate per id
+17930	multiple max values in a query
+17930	select rows with values equal to the maximum value for its group
+18137	find how many times a user id occurs and how many unique ids there are
+18137	get count and sum of different values from multiple tables
+18137	mysql can't join two tables columns into one show
+1837	g team names and match details for a set of matches
+1837	how to use two joins on the same column
+1837	join with two tables
+19686	find the count of each parking lot status type at a specific location
+19686	after joining three query not getting proper result in sql server
+19686	generate counts of column based on different conditions
+19803	order names with a user-defined priority list
+19803	custom sort on column
+19803	sql - select * from table order by
+20529	return pairs of adjacent dates from a list of dates
+20529	select value in next record in sort order
+20529	selecting data between dates in sql
+20646	get lowest k rows based on formula
+20646	mysql creating a top 10
+20646	select out the 10 highest monthly average price of 16gb iphone 4
+20811	get rows with column having any of top k values and sort in descending order
+20811	how do i get top 5 score in mysql
+20811	select the information of students ranking top 5 in score
+21570	get 10 random records
+21570	randomly select 10 records from table
+21570	select random rows from mysql table
+21838	ms access - link to query in another access database
+21838	run sql query on access mdb database
+21838	select all records from remotequeryname from the file named remotedatabase.mdb
+22082	find items that have some common values of a property with a given set of values
+22082	get not distinct values and group them
+22082	only filter out what some parameters have in comon with sql
+22421	calculate the total number of status2 and status4 of each client
+22421	get different sums from column based on condition
+22421	group by on same table and include all data like names
+22454	getting the number of tax steps created by month
+22454	extract year and month from date and sort by them in descending order
+22454	sql server - group records like archives by month
+22587	want to check which ids are in another table
+22587	get records where column takes values given by a subquery on the same table
+22587	return all records of non-given id if just one of those records matches the given id of another field
+22801	find the total vacation hours of a specific user
+22801	for every value retrieve sum by matching with another table
+22801	mysql left joining same table twice
+2328	output a certain time as unixtime.
+2328	convert date string to unix timestamp
+2328	hive date format handling
+2339	select the top ten most-occuring votes along with a count of how many times that vote occurred
+2339	get top 10 most frequent votes
+2339	how to list the top 10 most duplicate rows?
+23471	calculate the total number of course unit
+23471	get sum of a column
+23471	how to add a single column php/mysql
+23959	calculate the quantity and cost of each product which has total order number of 1100
+23959	calculating all values in column
+23959	sum multiple fields for each group
+23963	get unique values after join
+23963	select out the words from table t2 which has the same entity of table t1's records whose word is  blu
+23963	simplifying mysql query - 2 queries into 1
+24278	nested group by to get total user rewards
+24278	get counts per group as a single concatenated string
+24278	mysql:while using group_concat & count
+24455	  case statement to evaluate less than and greater than symbols
+24455	select values from either one of two columns based on condition
+24455	swap columns value in output based on certain condition using sql server
+24469	construct html links with a sql query
+24469	generated html code for list using query for top k
+24469	how to append html to the sql query
+24677	get records for which only a single row exists for a particular column value
+24677	select 5 largest id posts with track id not equal to 34 and user id within range (2, 10000001)
+24677	selecting with a limit, but also a limit on the amount of times a column can have a specific value
+24744	how to sum up a column based on a condition
+24744	count number of true and false values in binary column
+24744	how to count two fields by using select statement in sql server 2005?
+24813	getting the number of occurrences of a specific value
+24813	count number of rows satisfying condition
+24813	manually escaping commas on sql statements
+24907	copying unique entries from one table into another
+24907	create new table with distinct values
+24907	sql update same table
+25370	want to join two tables and project some attributes
+25370	finding the web page which is calling a sp
+25370	get database connection details for a particular session id
+25391	left join for shipment information
+25391	join two tables and sort
+25391	only one expression can be specified in the select list when the subquery is not introduced with exists
+25612	find the rows with the maximum value of some attribute
+25612	get result in a one hour interval
+25612	get rows having the maximum value in a column for its group
+26068	getting owner's name for a specific property
+26068	inner join? pulling info from 2 tables - webmatrix/razor
+26068	join two tables and filter
+26223	getting all course work that are on-going
+26223	compare between two dates
+26223	get rows where current date is within interval
+27150	pivot data query
+27150	create temporary tables of constant values in single query
+27150	unpivot a columns to generate rows
+27563	getting personalinformation for all employees that have 2 or more dependents
+27563	get ids having more than two rows in another table
+27563	how to delete non duplicate rows in mysql?
+27699	how to write a ranged case statement in the select clause
+27699	count of number of records in each time interval with mysql
+27699	divide column into bins
+2775	list how many orders exist for each email account
+2775	count number of times value appears in particular column in mysql
+2775	get number of records for each email
+28767	create a new empty table with the same schema
+28767	copy table schema into new table
+28767	create table by copying structure of existing table
+29213	find total number of single and married people from a table of people.
+29213	counting null data in mysql
+29213	get sum of each value from categorical column
+29303	do some string operations on a name.
+29303	how i can natural sort in mysql? i have followed table:
+29303	sort strings based on number at the end
+29554	get the last five characters of four divided by a hundred with accuracy up to 2 decimal places
+29554	formatting decimal with sql
+29554	round decimal value and keep leading zeros
+3078	duplicate and union a table and assign different key to the original table and duplicated table
+3078	union two tables with different columns
+3078	unpivoting data from spreadsheet into data tables
+31320	get all columns and constraints for some table and constraint type ordered by table name
+31320	join two tables and sort
+31320	retrieving key attribute names of a given table
+32114	retrieving date format rows in mysql
+32114	select all rows with date within the last month
+32114	status addeddates within the last 29 days
+32211	accesscards with the minimum entrydate per accesscard name
+32211	get records for each person's each day's min datetime
+32211	select rows containing the minimum value for a particular column
+32258	extract a substring for values in a specific column.
+32258	extract number from the end of a column value
+32258	t-sql select values from the end of a string which are between 2 characters
+32696	get serviceid from options table for records where it is null in contactoptions table.
+32696	find which combinations of cross product are missing
+32696	select rows missing from link table
+33035	getting first two rows
+33035	find rows having any one of the top k values in a particular column
+33035	mysql select all rows meeting the first and second lowest values?
+33209	return every matching and non-matching pair of fkid and sort
+33209	select alternate column if original column is null
+33209	sqlserver: how to pair up ordered data for sequences of arbitrary (and unequal length)?
+33449	retrieving fields for all rows that are not in a specific set
+33449	how to pass a integer array to not in conditions in postgresql?
+33449	select column that does not match any value in list
+33754	getting the number of days each user has appeared
+33754	for every group count unique number of dates
+33754	how do i count occurrences by day in sql?
+33937	how to label columns with the table name
+33937	add a column with constant value
+33937	populate dataset with table names from stored procedure
+34144	getting a specific index
+34144	find all indices on a column in a table owned by a user
+34144	show me the index on the table in oracle
+35074	sorting by a concatenated column
+35074	how to order by items based on data from two mysql tables?
+35074	sort based on custom formula
+35123	get information about items from the last 21 days that are not entry 1 from the catalog
+35123	fetch all records having date within the last 3 weeks
+35123	mysql - select all unless query
+35386	retrieving the latest message from all senders
+35386	get all rows with the most recent date
+35386	query to get last message only from all users
+35425	getting the batch name and estimate for all tasks executed by a specific user
+35425	join three tables and filter
+35425	sql relationships
+35455	how to write a case statement in the select clause
+35455	choose one out of many fields based on value of another field
+35455	need to find value in one column and then return value from another column
+36557	generating an image file using the raw image data stored in the first row
+36557	dump column into image file
+36557	mysql writing image blob to disk
+37505	getting the number of work hours logged in a specific attendance entry
+37505	get difference of two time columns in hours
+37505	only show hours in mysql datediff
+38793	getting all rows for a specifc spec sorted in a certain fashion
+38793	loop through mysql table and output in particular order with php
+38793	parameterized query to filter and sort
+39075	how to check if an id is in a subquery
+39075	select rows which match with all rows in another table
+39075	sql query to filter a table using another table
+39195	formatting sql output using string functions
+39195	adding zero when concatenating year and month
+39195	get year and month in yyyymm format
+39430	get damage control cost in sorted order
+39430	how do i map a derived property on a base class using nhibernate?
+39430	sort by a column
+39431	join two tables by their id and then get the last date for each fluff
+39431	get most recent date for each group
+39431	sql tables subquery
+39730	how to write a subquery in the select clause
+39730	for every row fetch matching value from another table
+39730	mysql join with grouping and ordering
+39865	select every player's total wins and losses
+39865	select sum based on column value from multiple tables
+39865	sql sum a field grouped by same identifier in two different columns
+40151	returns full info for the first client and partial info for other clients
+40151	associate row with top value of a column based on its group
+40151	select only distinct values from duplicate rows
+40432	select all entries in one table that do not have a username existing in another
+40432	get rows which do not have a matching entry in another table
+40432	problem with adding foreign key to table in mysql
+41238	prints 'key' if number of pegs in a given list is greater than 900
+41238	select max value if it is less than a threshold and null otherwise
+41238	use the result of the mysql select query as a where condition in the same query
+4280	get a trip with reg# 'pkr768' and departure city melbourne
+4280	how to have two nested queries inside one select statement?
+4280	join three tables and filter
+4579	select all rows from a1 having an id not present in a2
+4579	compare 2 tables in sql
+4579	subtract two tables
+4592	cross product table t1 and t2 and do something
+4592	for each row from select insert multiple rows into one table
+4592	select columns based on value
+5356	retrieve each company's name and all countries it is associated with
+5356	how woud i join this query in one single sql statement?
+5356	join three tables
+558	find item numbers that exceed cumulative proportion of all products.
+558	get the smallest item having a cumulative proportion of at least some value
+558	sql query - find row which exceeds cumulative proportion
+577	get all members of groups containing user number 1
+577	select the number of ttl and foreign group id within the same group where user id is 1
+577	sqlite count members in a group
+6132	get all pairs of friend requester and requestee
+6132	how can i compare different columns of different rows in the same mysql table (in php)?
+6132	join two tables and select all fields
+6336	get all tuples with media title like "query" or "query string" or "query string to search for", put the tuples with media title like "query" first, then those with media title like "query string", then those with media title like "query string to search for"
+6336	custom order based on column value
+6336	sort db2 sql results by where clause
+6337	combine all type and sum of amount in to a list for the same type.
+6337	mysql group_concat with sums also inside
+6337	single string for count for each type
+6372	add new column with average in joined table
+6372	adding an additional column to sql result set by using two que
+6372	join relevance and action log table together, and add an extra column that shows the average tips received
+7195	get subcategories which have post image 
+7195	how to use alias name of inner query as a column to get record that have no data or is null in sql query?
+7195	subquery based on column values
+740	counting the number of accounts with a certain type
+740	get the count of any one type for each acc_fk
+740	how to count number of unique (by 3rd field in a whole set) ids by type
+818	get the record of a player's max average score of scorea and scoreb
+818	for every player find the record having the maximum average score
+818	how can i select rows from a table when i max(cola) and group by colb
+8186	create new columns for count of each subgroup and average subgroup count in group
+8186	find the average count of every group of resolved by, category, subcategory, and symptom
+8186	group by columns + count(*), how to get the average count for every combination?
+8446	how to group by distinct values
+8446	select distinct values columna while columnb = value1 and columnb = value2
+8446	select ids thats appear with all values from a list
+8880	find 30 name and place of restaurants where the type is 0, 1, or 2
+8880	get top unique records satisfying certain conditions
+8880	prevent repeated row from returning in mysql
+9057	find the project and number of hours, resources for a given employee. only include projects that actual hours were spent and resources used.
+9057	i would like to delete the row with 0 (zeroes)
+9057	join two tables and filter and sort them
+9412	return everything where one of the columns were converted to int from string
+9412	sort by substring of column
+9412	sorting a string numerically in sql server

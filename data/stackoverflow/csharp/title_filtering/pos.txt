@@ -1,0 +1,232 @@
+n Entity Framework5 Code First Exception
+n visual studio 2010 c# unit tests
+n WCF web service call time out
+n Testing problems with Entity framework and DbContext
+n Adding conditions on complex properties with ServiceStack AutoQuery
+n Difficult C# if then logic
+n .net Setup Project: How to pass multiple CustomActionData fields
+n c#.net postback of form not keeping 1 value
+n Cannot Implicitly Convert Type in XNA
+n Caliburn bug with Show.Busy() and Show.NotBusy()
+n RadComboBox databound not working fine for RadComboBox .selected value
+n Could not load type 'Facebook.FacebookApplication' from assembly
+n C# OpenFileDialog Empty
+n .net remoting problem
+n C# Dynamically typed language
+n html.dropdownlistfor not posting back to controller in form
+n BHO memory leak
+n Tab not selecting with change in selected form
+n ASP.NET MVC5 - Sequential ID routing issue: 404 error when ID over 1 character long?
+n SqlCommand INSERT INTO query does not execute
+n Complex LINQ query
+n HttpWebRequest just hanging on one computer
+n ASP.NET (C#) Graph
+n Using a item which name is "class"
+n What will be the return variable for 'int' type function (sql query function)
+n c# MVC XML Record Value
+n Good practices for intialising properties?
+n WebDriverWait always waits the default 60 seconds, not the specified amount
+n Why isn't my method being called?
+n Operation synchronization different from class synchronization
+n Asp.Net WebApi 2 PUT method not updating nested collection
+n What is C# 'internal' in VB.net?
+n Environment.GetCommandLineArgs() Removes Quotes from Json String
+n Memory overflow Issue with exportin DataTable to CSV
+n Question about XmlSerializer in .NET
+n Connection to SQL Server Database inside Visual Studio connectionString error
+n Metadata Sometimes Returns Completely Incorrect Date Created
+n counting characters of textbox erroring out in asp.net
+n how do I write this query in linq ( c# )?
+n C# object reference question
+n Can't create a new user using External Authentication Provider in Web API (Visual Studio 2013 Update 2)
+n Stop dragging picturebox c #
+n Rhino Mocks Restub function
+n error populating dropdown list based on another dropdown list ID
+n Identity tables not being created
+n Arrays or Iterators - which has a better performance characteristics (memory wise) for calls that return one/two elements
+n XNA drawRectangle.X += 1 won't move my Rectangle/Sprite
+n ServiceStack CredentialsAuthProvider - appSettings authRealm oAuthProvider
+n Garbage collector won't collect an object created with using
+n Scrollbar Refresh Issue in MDI Parent Form
+n C# XML /// Comments, where does <returns></returns> tag show up?
+n Unable to delete directory and files using C#
+n RequiredFieldValidator error_message appears after form is submitted
+n How to check if the ID exists?
+n Why can't I put the webform into Views/Home folder?
+n Dropdown List not adding Items
+n EF Code First: The Collection has been modified
+n Why environment variable does not change?
+n Text field bound to property in another class does not update
+n .NET UserControl: Size property gives incorrect value on Resize event
+n what is the event when a form show
+n A better way to do replacement tags in c#?
+n StreamWriter automatically flushing buffer when given large messages
+n Visual Studio reports a binding error, even though binding is working
+n A strange thing about Nullable Boolean type, And and Or in C#
+n EF can't get the reference entity of navigation property of an entity
+n Strange behaviour of a System.Threading.Timer
+n I can't get a .net webservice working on an iPad
+n Mixed Content Warnings in IE7 caused by JavaScript and Images
+n MORE scripting problems in Unity C#
+n Unable to cast object of type 'System.Data.Entity.Infrastructure.DbQuery`1[]' using linq lambda expression
+n Does the creation of TcpClient have much overhead?
+n Invalid SOAP Fault; Unbound prefix used in qualified name
+n c# event handler being added twice
+n The thread has exited with code 0 in Windows Forms
+n Ideas for good class name
+n "Cannot reference a type through an expression" when using an enum value
+n c#: String class vs string struct
+n Why do lambdas in c# seem to handle boolean return values differently?
+n Does Unity have 'registration modules'?
+n Why are transparent pixels showing up black in my image?
+n NHibernate OrderByDescending throwing exception `A recognition error occurred`
+n Difficulty specifying Java version to use in the command prompt
+n The type cannot be resolved. Please verify the spelling is correct
+n .net Web services best practice...SRP?
+n Stuck on LINQ to SQL Query
+n Doing a login with this code but can't try if it works because I cannot find "InvariantCultureIgnoreCase". Xamarin forms
+n Why does my table have no content in ASP.NET?
+n In C# Webclient class output
+n EF4.1 multiple nested entity Includes gets NotSupportedException?
+n Is it applicable to place methods inside ASP.NET MVC views?
+n Static readonly field cannot be assigned to (except in static constructor)
+n Query on Delegates
+n Problem with System.Diagnostics.Process RedirectStandardOutput to appear in Winforms Textbox in real-time
+n C# difference between const int, const someStruct. Why is const someStruct not "compile-time constant"?
+n Where/how should I create instance of my class?
+n MVC5 radiobutton value error
+n PagedList doesn't work on IE but works on Chrome and Firefox
+n C# Decorators - Interfaces or Abstract Classes?
+n [SOLVED]Why is the score the same as the high score when the game restarts?
+n UserControlViewModel doesn't update binded property in UserControl
+n Can I use DirectoryEntry to list sites within IIS Express
+n C#'s/Java's List<Type> data structure in JQuery/JavaScript
+n Utils.CopyArray in C#?
+n AutoCAD eNotOpenForWrite
+n linq refactoring (possibly using nested group by clause)
+n I am trying to create an extension method but it is not spiting out the right info
+n Is it possible to pipeline .NET methods in a script language
+n When mouse is moved open AppBar
+n call the javascript alert and redirect url issue
+n Asp.net 4.0 c# membership user image
+n Thread memory leak
+n Weird Access Violation Exception
+n WIA scanner, can't get/set 4104 and 6146 properties (color, color depth)
+n Could not find a part of the path ... bin\roslyn\csc.exe
+n WCF service exposing 2 endpoints on 2 different service contracts
+n httpModules not working on iis7
+n Is this the correct way to bind ComboBox?
+n Trouble with Comboboxes
+n Will the threadpool queue a timer's callback function, sometimes scheduling more than one thread at the same time?
+n The handle is invalid when loading file or assembly AjaxControlToolkit
+n selecteditems and selectedindex c#
+n Alternative to Dispatcher class for .NET 2.0
+n WriteAsync() and WriteLineAsync() c#
+n Problem in assigning value
+n Entity Framework entity state management Confusion
+n Unhandled ArgumentException after embedding SCCM 2012 SDK assemblies .dll in the project
+n DirectoryInfo.GetFiles() is not returning all files on desktop(it excludes shortcuts)
+n Dropdown bind method not working
+n C# resource contentions
+n Lambda expression help
+n Regarding ArrayIndex inside Linq Query
+n C# dealing with objects
+n Sqlite WHERE Clause using Parameters
+n System.Array does not contain a definition for ToArray
+n TextAreaFor with New Lines causes Inner Exception
+n "Get #1, 1, Data" (VB) in C#?
+n Ambiguous call on extension method
+n Compilation Error in ASP.NET Code when adding a Literal Control
+n INotifyPropertyChanged - Event stays null
+n In C#, what are some rules of thumb for _where_ to clone objects?
+n How can i optimize this code?
+n Alternative to Thread.Sleep that block
+n When should we use Action<T> and not create a custom delegate
+n Getting rid of a generic declaration
+n The name "......." does not exist in the current context. error
+n Please guide on c# equivalent stuff of VB.NET (new to vb.net)
+n The calling thread cannot access this object because a different thread owns it. WPF closing all windows
+n C# coding guideline of how to use AsParallel() / Parellel.ForEach()
+n How can I use data repeater correctly here
+n calling Type.MakeGenericType() with null arguments
+n Convert vba to c# - please help! Lotus Notes create new email
+n Is my logic correct? I'm trying to do a simple search from a database
+n Validation(ASP.NET): If this attribute value is enclosed in quotation marks, the quotation marks must match
+n AcessViolationException when reaching file properties in VS 2013 WP 8.1 Silverlight app
+n FontSize.PIXELS c# equivalent
+n Is using shared Dictionaries a good solution to the lack of "extension properties"?
+n SQLite and .NET UserControl
+n Very simple file appender logging not working
+n AutoMapper for a list scenario only seems to repeat mapping the first object in the list
+n Why DataGridView.AutoGenerateColumns has a Browsable(false) attribute applied?
+n TreeView: Column suddenly grey
+n WPF GridView Column Binding issue
+n WebRequest with proxy throwing HTTP 405 method not allowed error
+n WCF ObjectDisposedException Safe Handle has been released / ASP.NET MVC3 Client / Threading
+n Unable to cast object of type 'System.Web.UI.HtmlControls.HtmlForm' to type 'System.Web.UI.WebControls.GridViewRow'
+n Export to excel spreadsheet (XLSX) failing
+n WPF DataTemplate resets some dependency properties when unloaded
+n A field initializer cannot reference the non-static field, method, or property? .1
+n tabcontrol changing when user clicks on treeview node
+n Why am I getting error: ‘viewModel’ is a variable but is used like a ‘method’?
+n Competitor app installs to same folder as mine, without requiring admin priveleges
+n Why can't DateTime.Parse parse UTC date
+n I'm making a C# application that uses MySQL database
+n C# SQL when/how do I close the connection?
+n Assembly.LoadFile() throws exception about missing manifest
+n Does IDbCommand get disposed from within a class that implements IDisposable?
+n sqlite attached database problem
+n Why does my binary run on Windows 8 but not on Windows 7?
+n Is this a correct class implementation and initialization?
+n Windows Form Application and SQL Server
+n Keep same page instance when going back on Windows 8?
+n what is "ID" attribute exactly is used for in OData
+n Nothing in Textbox with Exception Handling in C#
+n Why does XmlSerializer serialize an object to a file containing zeros instead of XML?
+n Difference between properties and variables
+n DataContext's Connection string help
+n Error converting data type varchar to float on populating GridView
+n Acceptance Tests for Tetris when using Test Driven Development
+n why XMLDocument AppendChild() adds "amp" to a xml node string value?
+n Inconsistent Results with RichTextBox ScrollToCaret
+n Proplem When I try to publish my website
+n eBay API GetSessionID method not returning session ID
+n JSON.net format output like I need
+n Add simple business logic to repository in ASP>NET MVC 3 C#
+n Why I can not cast?
+n Trouble resolving Parameters in Web Forms in 3 tier design
+n App crashes when reading from text file
+n Why does MSDN recommend including object sender in delegate declarations?
+n MVC action works only at localhost
+n Entity Framework 6.1.0 SaveChangesAsync
+n Message Queue Error: cannot find a formatter capable of reading message
+n C# Substring() bug in .NET v4.5?
+n How does Adapter Design Pattern work in C#?
+n Confirm message not prompting
+n C# Graphics.DrawString not rendering special characters?
+n Entity Framework issue - "Mixed mode assembly...cannot be loaded in the 4.0 runtime without additional configuration information"
+n Web.config settings
+n Mapping System.Drawing.Color
+n Are info messages in sql server localized?
+n Can ASP.Net Caching be used inside an MVC Controller?
+n In a knot with Generics
+n I am trying to do union of three lists of type T in C# , but when any of them is null it throws null reference exception
+n If Base class is marked Serializable are all child classes marked too?
+n Cannot deserialize some tweets using NewtonSoft.Json
+n Why am I getting arithmetic discrepancies between Debug and Release mode, and how can I remedy them?
+n DataTable DefaultView Rowfilter doesnt work
+n JScript Runtime Error in ASP.net MVC 3 after placing the javascript in a separate JS File
+n C# For Loop with Random Int Generator locks the program
+n Why e.Row.Cells[2].Text always show "" or null in GridView1_RowDataBound event
+n Timer unity3d col.gameObject.name
+n Busy cursor when mouse over scroll bar in ScrollableControl
+n Issue with ModalPopup in asp.net/C#
+n Why isn't my error being caught?
+n ShouldSerialize pattern and DataContractSerializer
+n Adapter not loading anything with SQLite C#
+n Error when trying to run a stored procedure from my C# code
+n in c#, how do i convert this data structure into Json
+n WinForms WebBrowser blocking ProcessCmdKey
+n Html.TextBoxFor NullReferenceException using Razor syntax
+n More control over instantiation of generic types?
+n Outlook 2007 Addin C# - Startup Path

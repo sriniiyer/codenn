@@ -1,0 +1,100 @@
+14300	get records according to first table in join
+4948	loop through table, check name, and add total
+31184	retrieve rows of 1st column based on common data on 2nd column
+39690	sql join 2 tables based on third
+26001	count unique users from db
+40469	get id from another table through a table
+13439	sql query showing element more than once
+35763	need to create a query for monthly data
+7383	sql join on a table name equal to a field value
+4349	mysql selecting from two tables but the second table not always have relationship to the first
+38103	how do i join a table and change the names of the returned columns?
+12306	reformatting mysql table as grid
+17610	conditions (where) mysql .
+35630	i need to show only records that start with a prefix of "250" in my table from mysql
+14481	mysql: return parent rows conditionally on two children of that parent which are the same table
+33051	mysql ordering query .
+22498	mysql return a value and the number of times its referenced from a mapping table
+12616	combining tables while searching for one of the elements
+19812	how to group records based on condition in mysql (group_by)
+15264	getting sum from two diffrent tables sql
+29552	generate a spending report from the following tables
+19506	mysql select statment with modification to tuple values
+1496	detect \n character saved in sqlite table?
+8137	difference between like and = in mysql?
+36017	mysql: what is the most efficient way to retrieve all permissions from rbac database?
+21246	i want to find max number who contain series a100012345 in sql server
+4078	sql- select a value within a cursor loop
+30078	getting the count of records without group by
+6044	hibernate select relevent data in one query
+9753	how do i count the similar entries in a table?
+35254	comparing dates in iif() in sql server
+24830	mysql: 24 hour interval with joins
+3315	mysql sort by calculated value of 2 rows
+34905	get records of current month
+35045	mysql query to fetch most recent record
+14298	showing all rows for keys with more than one row
+26455	get a row at a specific position in the result set
+15580	mysql count of group by result
+7587	getting a sum of rows and retaining each row data
+21985	make exact match show at top of internal partial match t-sql query
+33785	i have a kvp key value pair table, need sql to make it relational structure...!
+27469	sql query - group by more than one column, but distinct
+9850	mysql sort query by specific letters
+39233	selecting distinct same column values from non related tables
+33202	inner join with 2 primary keys
+12857	multiple aggregate queries as one row
+21472	select records older than latest 100 records from database
+25701	how would i write a sql query to retrieve closest match to my parameters?
+16087	sql returning aggregated results from one table as a column in a query
+20788	join table on already joined table
+25242	ordering by sql on fields not in projection
+23598	using not in() mysql with table lacking unique rows or primary keys
+12017	mysql, how to query the table comments?
+11127	how do i do a simple "select x where it's value of y is the max in z"?
+18884	combine two rows in mysql to show data as one row
+1798	sql join relationship - if an entry is found, then don't select
+21892	mysql: selecting duplicates among many fields
+5318	mysql sum multiple groups of data in a single table
+19953	select statement to exclude results through join table relationship
+19988	how to display relational tables
+36398	php - how to get order from query and get "place number"
+2734	mysql select last 3 rows, order by asc
+40195	mysql: find max(var1) but return var2 of that entry instead
+3323	select rows where particular records are removed based on another table
+10342	find out "ranking" of a value in sql database
+32763	how to use join in three tables
+30931	returning other columns of aggregate result
+21363	sort query result rows by index?
+6125	mysql if condition in a calculated field
+21712	search by date in mysql using dateformat
+18756	joining several tables at once:
+27943	sql select rows that have (partially) duplicated data
+7692	mysql query select from table and order by date and other field. prioritize other field
+6096	help with querying a many to many table in mysql
+39944	how to select distinct rows in 2 columns and sort both individually
+17724	select where column1 are equals
+5706	select by month of a field
+40955	error in retrieving and binding to a datagridview from a mysql stored procedure with concat()
+26781	sql server - select top and bottom rows
+38364	full-text search indexing only on certain rows
+29003	mysql : using between in table?
+37584	how to join factors from different rows under multiple loops
+13074	getting sum from two diffrent tables sql
+14770	oracle string manipulation .
+2654	sql server : how to join record not in another table?
+18154	sql selecting column names as values
+28990	getting number of rows of joined table by condition on another
+37747	how do i query the results of a 'group by' query, all within the same query
+12806	how to verify whether two sql server databases contain equal data?
+30867	select query with multiple sub-queries for counts
+35189	select clause with count and condition more than 2
+22055	aggregate functions return wrong values when joining more tables
+39534	in postgresql how do you join two tables select separate information
+25942	get html codes from sql server
+38591	dropping all view under particular schema - sql
+22925	inner join returning column name
+10492	sql combine select statements into two columns
+4922	mysql select specific date from datetime
+31233	select from a select statement from a defined value
+20871	removing duplicate records .

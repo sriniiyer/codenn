@@ -1,0 +1,300 @@
+20201484	how can i replace an empty or null val with a default "base" value?
+25745657	what is self hosting ? can it be used with webapi to communicate with devices?
+1664577	what is the best way to get a proper type name from a c# keyword?
+18949254	change cursor over a picturebox
+26265672	get the combobox from data template in wpf datagrid
+6789960	creating a file in windows ce 5.0 in c#
+27819102	find number of characters in a specific line in text file
+31842353	accessing a text file in a wpf project
+16658713	how to notify about changing property of listbox item?
+4095283	custom combining 4 dictionaries
+3492840	find the largest value smaller than x in a sorted array
+3688052	xml doc - null handling
+9335600	is there a way to duplicate or make another copy of an xmlnodelist in c#?
+4772301	removing \r from lines read from file
+27252327	pass post variables with windows phone app
+13728797	custom sort of observablecollection<t> with base type
+23614893	sql to linq statement including group by and order by
+21089792	access resource file content in asp.net
+16051922	sending an email asynchronously via actionmailer
+21863587	button click event doesn't fire when clicking same button twice in a row
+19740406	c# - deserialization of specific json
+15807191	c# how to get data into an array within an array
+18757982	windows phone navigate to new instance of same page
+20966635	how to select values from listview column
+10931642	how can i make sure a url provided by the user is not a local path?
+5571963	how to get datagridview cell value in messagebox?
+2508930	creating a custom tabpage control in c#
+27537399	exclude the number zero from modolus in an if statement
+11463734	split a list into smaller lists of n size
+16016065	skipping compilation of a method depending on operating system or framework
+6373908	how do you insert multiple records at once in linq to sql while calling a sequence retrieval function on every insert
+27744901	how to get the index out from the string
+19929274	how to get particular cell value from previous row to current row in gridview ?? winforms devexpress
+25143518	temporary lock windows (re)size in wpf
+13717189	show series value over any point on chart using tooltip c#
+11254609	trying to get a string that represents a class heirachy
+2250490	mark users coming to website from my application
+13645703	how search for html elements in streamreader or string
+17588713	how to add multiple bytes and get a byte array?
+512553	is there a way to measure the the amount of a string that will fit into a printed area without using the graphics object?
+25131356	entity framework eager load only a subset of other tables
+1896296	how to make sure a post is requested from specific domain?
+15584410	c# set the value of combobox and texbox in the same foreach loop
+2456581	vs2003: identify first row in datarow[]
+26223870	ordering entities based on other entity content
+10858103	deserialize arbitrary json object with json.net
+925034	using sqlserver uniqueidentifier/updated date columns with linq to sql - best approach
+27672628	how can i get value from sql functions on c#
+19639577	regex for substring between two known tags that might appear more than once
+1930196	what's the easiest way to generate a list<int> of ordered numbers in c#?
+13817300	retrieve xml attribute using xelement
+6670580	mapping multiple tables to a single entity class in entity framework
+31001739	modify build process parameter by tfs api in c#
+22777112	how generate chart from excel sheet using c# interop?
+9110331	get i frame source using htmlagilitypack
+4095315	other ways of 'disabling' a textbox against user input
+16286581	use nullable value if it hasvalue
+32066761	how to allow null to be added to database
+6836701	remove current row from observablecollection
+32440235	upload local image to deviantsart
+10301838	upload files to sql from a csv
+11096546	how to change binary to string
+28010788	how to set custom date format for specific column in datagridview? - c#
+15099952	how to fill a string with ordered elements via linq?
+1528508	uncompress data file with deflatestream
+5811241	using findcontrol for dropdownlist in a multiview
+7905100	make a datamember in a datacontract use implicit cast to string operator
+7437952	map string column in entity framework to enum
+29354074	multi-dimensional array - array of arrays?
+23421267	how to get and set text editor value in selenium
+12978894	change windows 7 app taskbar icon color
+7674955	found minimum and maximum value from dataset containing multiple tables
+5128421	how to stop the execution and make a redirect to the login page
+20848815	wp8/xaml - measure string length in pixels
+226572	xpath in c# code behind of wpf
+9915160	how to display text in a wpf gridview that contains carriage returns
+7460129	asp.net sqldatasource parameter declaration in code behind
+7981301	generate white noise image in c#
+8439757	how to run batch queries in sql ce?
+9017498	calculating how many minutes there are between two times
+3208573	how to specify pattern that should not match
+24150675	search substring in text file
+7014393	manipulate xml xdocument xmldocument c#
+25942733	abort reading from serial to start writing?
+23715423	c# compare two numbers got from two files
+31605293	designing interface for tree-like structure
+20375582	how can i add a attribute to root node of my xmldocument() in c#
+30080678	how to find a right click event on mouseup anywhere on the form?
+30791255	how to give a child window bounds to not go outside the mainwindow in wpf
+10034715	using a method with generic parameters as a callback
+11042688	wpf binding a list to a datagrid
+20324977	how to get the distinct item from listview in windows application
+14878871	design: list storing objects; access information associated with that object
+17963117	how to fill a region with transparency in windows forms application
+14566376	how save photo capture windows 8 c# metro app?
+25116943	printing the given numbers in given columns and rows console application
+25402496	api or library to process vcalendar information?
+12049425	add caption to access fields with c#
+1786695	linq return single row from a goup
+5925069	save icon file to hard drive
+20201484	set non-nullable value to field from nullable type by defining default value
+25745657	configure a local server and verify successful hosting by accepting input from user
+1664577	find the c# type associated with a given name
+18949254	fit image in picturebox when mouse enters control and maintain aspect ratio on leaving the control
+26265672	find the combo box control contained in the element at provided cell location
+6789960	save file with provided name and content, create if file doesn't already exist
+27819102	print the number of characters in each line  along with line number, in the provided file
+31842353	read the contents of the provided resource to string
+16658713	increment the amount of an item if it is already present in shoppinglist
+4095283	create a consolidated dictionary with all keys of provided dictionaries and value as list of values of the key from all the dictionaries or default value of empty string if key not present 
+3492840	given a sorted array, identifies the index of the provided number or the number just less than provided number
+3688052	identify all non-null columns in the table
+9335600	clone the first node in the provided xpath and modify its content
+4772301	replace the line feed (new line character in mac os) with emptystring
+27252327	get the result by asynchronous post of provided content to provided url 
+13728797	select certain element types from an enumerable and order them by their types and names
+23614893	sort transactions of accounts within a specific time period in descending order of counts and print their description against count 
+21089792	retrieve the resource name from application-level resource and replace the certain text with content provided
+16051922	fire asynchronous get request with provided params and no callback defined
+21863587	record left mouse button clicking of four button on the form/screen and then play beep sound
+19740406	parse the jsonstring to the provided object type
+15807191	identify the index of first null occurence in songs array
+18757982	abstract absolute url within service and navigate by providing relative path
+20966635	calculate the sum of prices within a list on click of button1
+10931642	identifies if the uri references localhost
+5571963	display the selected cell value in messagebox
+2508930	fill all the tabpages in the form with the user provided control and move it to the back of z-order
+27537399	do something if value of variable is 0
+11463734	split the given list to list of specified length lists (paginate the given list)
+16016065	conditionally compile code based on evaluation of ce
+6373908	insert payment records to db until conflict is encountered
+27744901	identify the number in given string
+19929274	find the value of cell identified by column name and row number
+25143518	specify that window must not be allowed to resize
+13717189	as mouse is moved across the chart display the data corresponding the x position in format containing two decimal digits as tooltip
+11254609	print the inheritance hierarchy of the given object
+2250490	starts a new process with provided application name
+13645703	identify div of given id value in the html and get its content
+17588713	calculate the checksum of array of bytes using bitwise operator
+512553	returns the size of given text when rendered in specified font
+25131356	return the array of active documents from context
+1896296	returns the url of page that referred the request to current page
+15584410	set values for each control from cell value of an excel sheet
+2456581	define different behaviour for first row(header) and rest of rows in collection of rows
+26223870	order conversations by the most recently received messages
+10858103	replace "list":[] in string with "list":{}
+925034	redelegate the insert and update operations of the test object to linq to sql to generate and execute dynamic sql
+27672628	execute the query specified in commandtext after substituting the parameter and assign first column of first result to label1
+19639577	identify the characters starting with / and ending with  .stream
+1930196	initialize a list of integers with numbers 1 to 10
+13817300	identify the xml node matching the xpath and specified attribute value
+6670580	map certain properties of entity object to different tables using the fluent api
+31001739	updates the build definition  by changing the value of process parameter for given key 
+22777112	add line chart of specified size at specific location in worksheet with labels
+9110331	extract the src attribute of all iframes present in the html document
+4095315	add attribute name value pair to textbox
+16286581	return the value of number if non-null, else return default value of 6
+32066761	assign the value of cost as double if it is not null else set the default value configured dbnull.value
+6836701	remove the selected listboxitem from the collection
+32440235	upload the file to server specified using post request
+10301838	given a list of filename and filepath, save the name,type and contents of file to data store
+11096546	convert a hex string to binary representation of image
+28010788	specify the string format for the column specified in gridview (date in this case)
+15099952	get the equations from distinct elements ordered by its id, as a comma-separated string
+1528508	find the decompressed size of the provided stream
+5811241	add a dropdown option to specified dropdownlist control within provided parent control collection
+7905100	datacontract and datamember attributes are set on the class to facilitate serialization and deserialization
+7437952	create getter and setter for enum and a string backing its content
+29354074	declare array of array 
+23421267	set value to html element identified by the provided class names
+12978894	update the progress of operation in tasbar to error and completed
+7674955	find the global min and max value of field from all rows in 3 different tables
+5128421	remove the authentication token and redirect to login page
+20848815	get the rendered width of string rounded up to nearest integer
+226572	iterate through all nodes matching the provided xpath in given xml file
+9915160	render fixed width textblock whose height adjusts with its content
+7460129	add parameter named one of type int with default value of recordno
+7981301	assign black and white uniformly (50% probability) to each pixel in image 
+8439757	fire insert queries to db by substituting parameters from collection of key-value pairs and rollback if insert failed
+9017498	find the days, hours, minutes and seconds component of time difference between two given datetime object
+3208573	return if the input doesn't contain "world" in it
+24150675	identify the number after '-' in line containing given text in given file
+7014393	create and save xml document with nodes in provided hierarchy
+25942733	set data read from the serial port to label element if it is greater than certain size
+23715423	read the version from a file and perform operations on file by comparing read version number and the version in file
+31605293	define interface of generic type and inherit for different concrete types
+20375582	add a new attribute to the element
+30080678	define the right click behaviour on a control
+30791255	when the location of parent window is changed, move all the child windows to specified location within the parent
+10034715	initialize a function delegate taking params tparam and returning tresult when class someclass is initialized
+11042688	getter and setter for a list object with event raised to notify framework on object change
+20324977	identify all keys which are repeating in the list and return them as comma separated string
+14878871	return the first instance of given address in the list
+17963117	create a colour from opacity and red, blue, green combinations provided
+14566376	show file save dialog with suggested name and file type, perform replace if file already exists
+25116943	save the give comma separated string of numbers in matrix format of specified rows and columns
+25402496	parse the given utc format date string to local datetime object
+12049425	open accessdatabase for write operation and append user-defined property to a given field
+1786695	group data based on multiple attribute values, order the grouping and print them
+5925069	create and save provided filename on the desktop folder
+20201484	extract type safe values from generic object
+25745657	using the asp.net self-host api to avoid using iis to host a web-api
+1664577	microsoft.csharp: returns a runtime type object given its type name as a string
+18949254	changing the zoom option for the image based on mouse hover event
+26265672	wpf: select a combobox by its name and get the name from a cell in a grid control
+6789960	create new file if it doesn't exists and replace the contents of an existing file with some new text
+27819102	print out the index of each line in a text file together with the number of chars in the line
+31842353	in wpf: read a text file defined as an application resource
+16658713	match a shopping list item to its equivalent item in a list using the ean property, and then increment the amount property of the found item and assign the lookup item's amount property to the new value of the amount property of the match
+4095283	merge four dictionaries into one dictionary where each key can have a list of values. this is a solution to the problem of the dictionary structure preventing the same key more than once
+3492840	look for a value in an integer array using the binary search algorithm
+3688052	loop over all columns in a dataset and test if they have content
+9335600	locate a node inside an xml file and replace its contents with a string
+4772301	remove all instances of the carriage return character from a string
+27252327	execute a post request to a web server having an array of key-value pairs and receive the response asynchornously
+13728797	join two lists of itema and itemb objects after casting them to their base type
+23614893	linq: group the result of a join of two tables by accountid and sort them descendingly by the property of having the accountid being repeated the most
+21089792	get a template string from page resources and fill placeholders inside it with values from ui
+16051922	execute a get request on a web server and receive the response asynchronously
+21863587	when a button is clicked append its text to another control's text in case that other control's text has less than 4 chars, else play a beep to indicate an error
+19740406	deserialize a json string in that represents a single object in two ways, and deserialize a json string that represents a list of objects
+15807191	find the first song object in an array that is null and return its index
+18757982	wpf: move the application ui to a specific page
+20966635	loop over rows of a list view and sum all the values in the third column
+10931642	wpf: check whether the specified uri references the localhost. the last two will return true
+5571963	display the contents of the first selected cell in the datagridview in a messagebox
+2508930	programmatically add an instance of a user control to all the tab pages of a tab control and make it fill the whole tab page
+27537399	execute a block of code in case r equals 0
+11463734	build an index table with a subarray of float numbers corresponding to each item index
+16016065	compile the code in the if block only if the ce variable is defined otherwise compile the else block
+6373908	linqtosql: insert payments into the payments table in one transaction to avoid inserting them partially
+27744901	return the digits only out a string with mixed alphanumeric characters
+19929274	in devexpress: get the value in the currently selected row of the datagridview under the given columnname
+25143518	hide the minimize and maximize buttons on this window
+13717189	in system.web.datavisualization: display tooltip on a chart based on the mouse pointer location and a runtime array containing the values
+11254609	display the type hirerachy of an object as parent.child types notation
+2250490	open the default system web browser on a given url
+13645703	htmlagilitypack: retrieve the inner text from a div node in an html page where this node is found using an xpath query
+17588713	do a binary add on a list of bytes and return the result into one accumulated byte field
+512553	compute the size of the bounding box for a the current control's text given its font
+25131356	return a list of an anonymous type object that is built from selected properties of another object by using an input list containing the input object type 
+1896296	get the link that the user pressed to reach the current link
+15584410	assign the text property of a group of controls to the values in a corresponding datagridview cell for each control
+2456581	process datarows differently for the case of the first row versus the following rows
+26223870	return the list of conversations ordered descendingly by the most recent messages
+10858103	replace "list":[]  by "list":{} in a string
+925034	lintosql custom datacontext inside the implementation for submitchanges: create a new test instance or update an existing one
+27672628	ado.net: invoking a user-defined function that returns a scalar
+19639577	return the first match group inside a string, i.e. the prefix part of a stirng that complies with a given regular expression 
+1930196	return the numbers 1 to 10 in a list of int
+13817300	return the first xnode having the id attribute equal 2.1
+6670580	databse features of visual studio: generate two datatables (result and test) based on an entity of type testresult
+31001739	create a custom build definition for team foundation server
+22777112	ms office interop: use this api to add a new chart at specific coordinates to a worksheet and use a specific data range to assign the values that are represented in this chart, and also draw its title and coordinate titles from the range
+9110331	htmlagilitypack: list the src attribute of a list of iframe nodes from an html source by locating them using xpath
+4095315	add an attribute to a textbox html control
+16286581	if number is not null return its value else return 6
+32066761	is sectiongroup.cost is null return dbnull else return the cast of sectiongroup.cost as a double
+6836701	remove the selected item in a listbox from a runtime collection
+32440235	connect to a webapi using a restclient to upload a file to the destination server
+10301838	store a binary file inside a database using linqtosql
+11096546	pad a string of digits with 0 if it has odd length to make its length even, then split it in half and do a comuptation that results in a binary object which is an image
+28010788	define custom date format for a column in a datagridview
+15099952	get all the values of the equation property from a list of elements into a single comma-seperated string 
+1528508	uncompress a byte input stream into an uncompressed byte output stream
+5811241	for each repeateditem in a collection add a corresponding list item in a dropdownlist
+7905100	expose the class member member as wcf service datamemeber, where the class is exposed as a data contract for the wcf service
+7437952	set a string property based on the value of an enum property and set the enum to the string value only if it matches one the enum values
+29354074	declare a 2-d array of strings that will get allocated its size in the declaration statment using a static initializer
+23421267	edit the contents of a web page html control using javascript
+12978894	two ways to set the status of a progressbar control
+7674955	loop over a collection of accounts stored in three tables to find the min and the max accountlevel values across all the three tables
+5128421	handle the signout button in asp.net forms authentication
+20848815	wpf: compute the actual textwidth inside a textblock
+226572	loop over all nodes that comply with an xpath query expression fired against an xml document
+9915160	wpf: bind the textblock text property to a property in code-behind
+7460129	webcontrols: add a parameter to a sqldatasource to be used in the associated selectcommand
+7981301	color the pixels of an image as black or white based on a randomizer
+8439757	insert a set of data into a sqlce table using a parametrized query and a transaction to prevent partially inserting the data set 
+9017498	get the difference between two timestamps and display each portion of it seperately
+3208573	lookup a substring in a string using regex
+24150675	get all the total number of objects processed successfully from all lines in a log file where these lines have the standard prefix for this value
+7014393	demonstarting various objects that exist in the linq2xml api
+25942733	reflect the text value read from a serial port into a label
+23715423	compare the online version from the server against the local version by comparing the text inside the version file in both sides
+31605293	define a generic recursive treenode interface that has a property for the parentnode and a property for the collection of child nodes
+20375582	system.xml: add a custom attribute to a document root node
+30080678	handle the right-click event on a windows form
+30791255	return the top and left coordinates of the parent windows whenever its location changes and move its child windows to in the direction of its upper left corner (wpf)
+10034715	declare a class that has a delegate property for a function that takes two parameters of two potentially different types, and present a constructor for the class that takes this function as a parameter
+11042688	wpf: implement one-way or 2-way binding for a property inside a class that implements inotifypropertychanged
+20324977	return the duplicate items inside a list as a comma-seperated string
+14878871	get the first instance whose address is a specific value
+17963117	create a color instance from alpha, red, green, and blue values
+14566376	windows runtime api: save an image asynchronously
+25116943	print out a string that represents a comma-seperated list of 30 numbers as a grid of 5 rows by 6 columns seperated by tab 
+25402496	convert a utc datetime string into local system time
+12049425	ms access interop api: open a ms access file and append a custom property to a field in a table inside this database
+1786695	get the data object identified by the tuple (vol, component, dwg, view) having the highiest value for its revision property and write it out to console
+5925069	save an icon file to the desktop

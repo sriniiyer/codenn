@@ -1,0 +1,566 @@
+g Wait with return statement until Timer elapsed
+g Talking to a KX-NCP1000 PABX
+g Replacement matching regex with anchor tag?
+g Linq to XML parsing a single "status" node from the twitter API
+g Make dapper SQL be syntax colorized
+g Removing Invalid Characters from XML Name Tag - RegEx C#
+g Json deserialization with different variable names (FIXED Posted Solution)
+g WPF/C# - Applying date format to listview
+g Showing Datetime using C#
+g c# create a method where default parameters do not need to be entered
+g Button clicks check boxes based on if statement results
+g unable to display application icon for c# project(Vs10 windows application)
+g C# Break string into multiple parts
+g Posting separate lines from TextAreaFor into separate DB rows
+g ServiceStack DTO Assembly
+g How to convert a JSON array into a C# List?
+g HDI: Constrain Property Set on Linq-To-Sql class
+g Repeater with Linq - One Item with many child items
+g Declaring interface on abstract base class
+g Open and Close the same window on the same button click
+g How to login to wordpress programmatically?
+g Deleting items from datagrid (xml)
+g Checking if a variable is of data type double
+g Sitecore serialized items with Git autocrlf
+g How can I return a value inside Select() Lambda Expression
+g IIS7 Programmatically get App Pool version in ASP.NET
+g Create a new record with a specific owner without calling AssignRequest in CRM 2011
+g Creating Windows Folders using impersonation
+g keeping the data in a form after it has been sent
+g Fluent Nhibernate HasManyToMany both sides with noop map
+g How do I reference configuration information from within multiple class libraries?
+g Extension Method to assign value to a field in every item?
+g Find and replace dynamic values via for loop
+g Open XML - How to add a watermark to a docx document
+g Show data sent to WCF in windows form
+g Consuming WCF REST Service with multiple parameters WITHOUT DataContract
+g Linq to SQL: How can I update a formview that has data from multiple tables?
+g Update Build Controller/Agents to build C# 6 /.NET 4.6 application
+g What's the best way to store a password or private key on a web host?
+g How to make a library method call asynchronous?
+g ListBox scrolling
+g retrieving X509 certificates from AD Server
+g Select item with null value in DevExpress Combobox with datasource
+g How to loop xmlnodes in parallel
+g lock mouse cursor movement only in a control
+g Print out RDLC of ReportViewer as an image format
+g Raising an exception when trying to see if a item is selected in a listbox
+g How can I use c# to send a tweet?
+g Change datagridview data with a textbox
+g Choose ComboBox value and convert it into a int
+g UniqueConstraint in EmbeddedConfiguration
+g How can I post stories to current logged in user's Facebook wall using Facebook C# SDK?
+g Mocking a method to return for some parameters and throws exception for all other parameters
+g How do I access specific rows in my LINQ model?
+g ASP.Net C# create a cookie that expires at midnight
+g ASP.net Change Password Validator
+g Combination without repetition
+g how to insert row in entity 3.5 in detail table?
+g add click event to many control
+g C# Implementing Abstract factory pattern
+g c# pass a string from an action to another
+g How to store a list of files from disk into an array in C# ASP.NET?
+g How to access the MS Outlook mail using the EntryIDCollection?
+g Remove dynamic substring from string c#
+g Convert Date MMDDYY to Date for database Insert
+g Get href value with onServerClick
+g How to create a DateTimeOffset set to Midnight in Pacific Standard Time
+g Populate Grid With List of objects
+g how to copy a file from application bundle to documents directory in ios using monotouch
+g How to easily find screen location of form Location in multi-monitor environment?
+g Store array[,] in user settings
+g Create outlook message with attachment using vb.net
+g How to cast DataTableReader object to bytes array?
+g How to scroll to a specific element in a StackPanel?
+g One DataSource for multiple controls
+g Html Agility Pack - Remove element, but not innerHtml
+g How to update file name in filewatcher
+g Insert DataTable into table in StoredProcedure
+g Check if in one integer array are exactly a number of matches in c#?
+g Access folders in root directory
+g Is it possible to add a view in code-first context?
+g Find value via property name in json.net?
+g Split a string that has white spaces, unless they are enclosed within "quotes"?
+g Browse ADAM and retrive values from C#
+g convert IntPtr to bitmapimage
+g Need to know when a non-modal window has closed
+g How to upload an image to any web server, local or remote which my application has permissions to
+g Password validation REGEX to disallow whitespaces
+g How to parse XML elements?
+g Detect if On Screen Keyboard is open
+g how get integer only and remove all string in C#
+g Send file+parameters in post request
+g Use custom Color in SolidColorBrush
+g Count the number of children in my JSON file using JSON.NET with LINQ
+g Truncate DataGridView fields so it doesnt exceed 10 characters?
+g Connection string data source path to access files from other projects
+g How to programatically send a TAB keystroke in netcf
+g Add variable number of XElements
+g wp8 c sharp community create tables in sqlite
+g How to assign a timestamp format value in a parameter?
+g XmlDocument query taking two values
+g Is there any way to get the PropertyInfo from the getter of that property?
+g Calling stored procedure values into the console application C#
+g How to create a application link in windows
+g lambda expression to verify list is correctly ordered
+g How to send a list of object from my MainPage.xaml to another page
+g Split alphanumeric string to array containing the alphabet and numeric characters separately
+g XML Lambda query in C#
+g EF Transactions c# MySQL connector
+g Entity Framework select one of each group by date
+g Comparing two Int variables with room/margin for error
+g Performing isnull in string
+g tooltip computed links for asp button after button is clicked
+g C# console app - explicit termination (not Env..Exit)
+g MigraDoc: Centering a watermark on both landscape and portrait pages
+g Dragging objects from one application to another
+g Resize an image to fill a picture box without stretching
+g calculating listview & textbox
+g Getting an ID of a value from dropdown list
+g How to produce multiple items in Linq to XML enumerator?
+g Send Cookies With HttpWebRequest
+g Finding drop down list control from a stored procedure in edit item template of gridview in asp.net c#
+g Store list of pairs in one table EF
+g Displaying my Program Name in setup security prompt
+g How to read a binary stream from C# BinaryWriter in PHP?
+g How to compile all files to one exe?
+g Associating entities, not creating, with many-to-many relationships in EF Code First MVC3
+g Pass parameter by reference between two Forms
+g Trying to query many text files in the same folder with linq
+g Getting insert query from a grid
+g Adding properties of an Object together in a collection
+g Displaying Crystal Report With Display String Property Causes ArgumentOutOfRangeException
+g How do I create an XmlNode from a call to XmlSerializer.Serialize?
+g Enabling wide tile for a Windows Phone 8.1 Silverlight app with WMS
+g Is there a way Unity to constructor inject both registered type and concrete value
+g Regex for a URI / URL
+g Gridview Footer total using Linq
+g MySQL Database: Limit user access to data they created
+g Unicode String in Hibernate Queries
+g Overriding Configuration Values in config.json file in Azure Web App in ASP.Net 5
+g Thruster effect using particle engine
+g Detect which childwindow of the foreground window has been clicked?
+g Upload JSON File and Parse
+g How do I get values from Templates in a datagrid row for a query string?
+g How to disable Win key of on-screen keyboard?
+g Regex expression to get first word after specified word
+g Convert Generic List<string> to byte[ ]
+g Select Range get line Text in wpf richtextbox
+g Fetching Cities dynamically in Asp.net HTML control
+g Binding in RadRichTextBox (WPF)
+g How to run datatable against stored procedure to update database?
+g quick way to generate methods to handle events in Visual Studio 2010 from markup?
+g Executing batch file command within C#
+g Dynamic user control over variables (embedded language?)
+g HTTPS for only one ASP.NET page (Login.aspx), HTTP always for rest of site
+g Dynamically create lambda search on IQueryable on nested objects
+g ASP.NET Automatic logout
+g EventHandler with FormClosingEventArgs
+g Connection-Specific Database Reader Class
+g Indent first column in GridView of ListView
+g updating a record in Access table
+g How to select only images with tags
+g Moving 2 forms at the same time
+g How to search for a word in a string and then get the numbers after this word?
+g Deserialize JSON to multiple properties
+g preferred way to implement visitor pattern in dynamic languages?
+g Enumerating Outlook Mailbox using Visual Studio
+g How to set the generic variable of the type Type in a loop?
+g LINQ aggregate chaining
+g Remove Substring in String C#
+g RestSharp requests on momentapp's restful api
+g I want to make a picturebox disappear after a certain time has passed without using a control
+g AspNet Mvc select ConnectionString automatically
+g How do I nest multiple ViewModels in a top level ViewModel, in a sort of hierarchy that can be dispersed throughout my Views?
+g Implementing Oracle's RAWTOHEX function in C#
+g Return Value by closing MainWindow
+g Remove namespace declarations from web service response
+g Force the browser to save downloaded file in a specific location
+g Add value to generic dictionary by key
+g How to get the amount of colums from a SQL database with LinqDataSource?
+g add application listener by code
+g Referencing an element in an array inside a list
+g Efficient linq query to return objects when you have a list of object id's
+g C# Linq dynamic where statements combining DataTable and given Dictionary
+g CT cardic Dicom MPR, asp.net MVC c# upload options
+g how to access field values in a Item using sitecore Xpath Query
+g Change DataSource in XtraGrid
+g Change value to a global variable and take it value in other class
+g Obtaining control Id through javascript in asp.net
+g Create new file with specific size
+g Castle Windsor Dynamic Property in XML config
+g Socket Programming - Sending/Receiving hex and strings
+g How to get distincts from a list inside a list and remove that (master)listitem?
+g Include Chromdriver In Your Application
+g How can i auto search from multiple column in my datagridview?
+g Return multiple values from sql to label
+g Passing Instance Method to Thread
+g How to Button onclick get selected radiobutton value inside listview in c#
+g LogFile Reverse with C# Array - Empty row
+g Delete Cookies from a Different Domain
+g How to access animation parameters in Unity C#?
+g Retrieve metadata column fields
+g Unit testing methods with a local Thread
+g SqlCommand Query and iteration to execute data into multiple XML files with my given program
+g C# caching and async requests
+g How to convert an abstract base class to generic derived class and access properties of the child class?
+g Fill dropdownlist when there is no data in database
+g How to get processID from Process.start()
+g How to detect shift+tab when overriding ProcessCmdKey
+g Serilog: Time to Live in mongoDB Capped Collection?
+g Searching for a specific sound within an audio file
+g How can I link one table with two reference tables in LINQ?
+g The best way to move a directory with all its contents(files or folders) in C#?
+g Linq lambda arguments
+g Check if MS Access 2010 is installed
+g How do I group by an ID within a child collection
+g GetField for private property that returns Dictionary<Type,InternalType> and iterate
+g Creating a C# object in javascript
+g Convert int textbox input to negative in xaml?
+g Finding the width of a control from inside the control in WPF
+g Update property from MainWindow to userControl
+g Gridview WebUserControl access selected row
+g Is there a way to download a file without Webclient in Silverlight?
+g C#: XML To Type -LINQ
+g Detect if Application was suspended in OnNavigatedFrom for Windows Phone 8
+g Is it possible to create multiple objects from an XML file?
+g Order a List<T> by Date, but it has a String ID, if that ID is repeated with different date in the collection with should appear below of it
+g Function to multiply array elements
+g Server/client sockets
+g c# Dropbox download file by httpwebrequest
+g How to mask a square image into an image with round corners?
+g C#, using all files with the same extension in a folder
+g pushing to live asp.net web application. Security Exception
+g C# "Inject" drive to Windows explorer
+g Textbox displaying extra information when text file is parsed
+g How to Regex match on spaces and replace without overwriting spaces
+g How to consume WCF services without svcutil.exe?
+g use dateTimePIcker to set timer interval
+g Translating a C# WCF app into Visual Basic
+g How to execute an action link by passing an object as parameter in Asp.Net MVC 4?
+g Can you force a method to be called inside a class constructor, else throw compile error?
+g Return Task<bool> instantly
+g How to avoid that a string splits on every whitespace in command line
+g Open other program's configuration files
+g Loading content from an xml file using a background thread?
+g Convert file path to UTF-8
+g Regex to extract portions of file name
+g How to get my current Location with GeoPoint API in Windows Store Apps?
+g Add an extra column to my model in an .edmx file
+g How do I reverse ORDER BY to give me the smallest instead of the largest?
+g Query syntax instead loop with list<Process> difficult with translation
+g Open Source HTML to PDF Renderer with Full CSS Support
+g Value increment of textbox in C#.net
+g .Net Listview with flow layout display horizonally
+g Get last inserted id
+g Using ScrollBars in .Net
+g .NET Regex whole string matching
+g Passing delegate function with extra parameters
+g Export Grid View to Excel
+g ViewState Vs Session ... maintaining object through page lifecycle
+g Aligning html inputs on same line 2
+g Forcing the creation of a WPF Window's native Win32 handle
+g List Object in C# or Xamarin
+g Display google chart date in dd MMM yyyy format
+g Checking If More Than One Different String Exists In A List
+g C# datagrid binding
+g Verifying Controls on a Windows Form
+g How to unit test method that creates NameValueCollection using Request.Form in C# (asp.net)
+g Place a grid of labels on a form
+g WPF Changing the orientation of a listview including its content
+g Windows 8 - How To Change Live Tile Background Image?
+g Generic Method That Inverts Booleans
+g Convert multidimensional array to list of single array
+g How to use c# code inside <% ... %> tags on asp.net page?
+g C# - Get variable from webbrowser generated by javascript
+g C# hiding visibility on part of an enumeration collection / public & private options accessibility
+g Variables that accept values with pipe | as separator
+g C# Form Draws Slowly
+g How to manage command execution speed when working with selenium?
+g Converting from Decimal degrees to Degrees Minutes Seconds tenths.
+g How to validate a date of birth with a date of deceased textboxes using Jquery.ui.datepicker.css
+g Retrieve specific number of rows in a SQL Server query
+g Windows Forms: Enable/Disable WS_CLIPCHILDREN
+g How to merge two excel workbook into one workbook in c#?
+g how to get the date-time for a particular city in C#?
+g Drawing only specific parts of an image in MonoTouch
+g How to translate PHP JSON web service to C#?
+g add Eventhandler to a shape inside a DataTemplate by code
+g how do I access a radiobutton inside a ListBoxItem in windows phone 7
+g How do I intercept a method call in C#?
+g Return statement after throwing an exception in C#
+g How to enable session variables in sharepoint?
+g How to release late bound COM objects?
+g unitofwork, repositories and disposing of connections
+g Refer to 'Program Files' on a 64-bit machine
+g Consume a web service C#?
+g How do I send a POST request in RestSharp?
+g Add custom attribute to the PDFService class Nopcommerce 3.0
+g Use a System.Drawing.Image in an HTML tag
+g How do you merge two objects in AutoMapper?
+g Binding collection of Threads to ListBox
+g EWS Create Appointment in exchange with extra custom properties
+g How to Export data from Listview and Save in DataBase
+g Remove self-closing tags (e.g. />) in an XmlDocument
+g Is it possible to execute an x86 assembly sequence from within C#?
+g SQL Image DataType - C# Display Output
+g Calculating a ASPxGridview Column in DevExpress
+g Can I reload an assembly in Mono CSharpRepl?
+g how to do: what i pick on combobox1 will show on combobox2?
+g wpf sharepoint 2010 file picker
+g How do I list device types using WMI?
+g Making a menu (color palette) from looping through colors
+g Manipulating pixels WritableBitmapEx
+g Converting query to lambda expression with joins and where clause
+g Best way to switch behavior based on type
+g Comparing dates in LINQ which are stored as strings in database
+g How to order a collection with LINQ so that a particular string appears first
+g How do I send the http default status code 400 in SOAP web?
+g Non-clickable Context Menu Header
+g Create a new XMLDocument by filtering an existing document in c# using xpath
+g Sorting NHibernate query results
+g How to filter number and date in GridView using RowFilter?
+g Combine two datasets in one Crystal Report
+g Adding a DataTable to Dynamic PDF
+g How do I update a listview when my variable changes?
+g How do you get the template type from a List Type?
+g Convert php to c#
+g How to check whether the logged-in user is interactive or idle in wpf application
+g Querying database using the same date does not return data
+g Prefix '0' to the int variable which less than '10', How?
+g How to print the Barcode format in c#
+g How to stop a blocking StreamReader.EndOfStream on a NetworkStream
+g Is there a .NET way to enumerate all available network printers?
+g What is the best possible way to calculate the sum of digits of a number?
+g C# to Send Mail using Outlook
+g Triggering events or alerts based on rare conditions. (.NET)
+g How do I check if a Rectangle overlaps the area between three Points? (C# and XNA)
+g delete multiple rows in datagridview and access table
+g Programatically Create an Excel Sheet that Auto-sizes Columns
+g Split by multiple characters
+g How to catch the ending resize window?
+g how to change color of a column in datagridview?
+g Execute a query that joins tables from 2 or more db's with SQLConnector and SQLCommand
+g How can I perform this type of JOIN in Entity framework with LINQ
+g WCF: Use a Message Contract to make a Soap Header
+g how to change a sql timeout after command has been started
+g How to move picture box within the window by using mouse pointer in C#.Net
+g How to identify the specific cell hovered over in DataGridView
+g ExecuteNonQuery in parallel within a shared OleDbConnection / OleDbTransaction
+g How to apply CSS to navigation bar with master pages?
+g How to store double[] array to database with Entity Framework Code-First approach
+g Report Viewer multiple Datasets
+g Executing functions conditionally and in parallel
+g Is it possible to specify .NET service pack in "supportedRuntime" in app.config?
+g .NET Asynchronous stream read/write
+g Unique id number C#
+g Joining a Dictionary to a Datatable
+g Compare complex subquery between two values
+g C# Program Settings and Localizing
+g c# if statement inside while loop how to break out if user inputs valid data
+g Custom control problem with memory usage and navigation
+g Getting the Last Modified Date of an assembly in the GAC
+g How to get Sharepoint image in relative url format
+g How To Set A RadGrid's Page Size Programmatically Without Triggering A PageSizeChanged Event
+g HtmlDocument in a winforms application, how to tell if text is overflowing?
+g Rad grid form template
+g How to change Background of datagridcell based on multiple condition WPF?
+g Android Image upload to C# .NET REST service
+g How to capture HTTP packet with SharpPcap
+g Validation for input type file doesn't work in ASP.NET MVC 4
+g Casting Linq Query to DataSet fails
+g Export XElement to Excel
+g C# - modify doubles in string
+g What is capping out Array size in C#?
+g Read config file using XMl reader
+g Datetime format in C#
+g Resetting Threading Timer if it's called a second time
+g (my)SQL Row Lock while user enters data c#
+g C# Joining 3 Lists with Linq
+g Getting rid of spaces in a string
+g How do I get the icon associated with a file type?
+g Making a SortedList readonly
+g Populating Jquery Datatables with Webservice
+g Get Total No of Records in Gridview Pager
+g Combine overlapping urls in C#
+g using 7zip sdk to compress a file, but can not decompress using winrar or 7zip
+g How to create a dictionary from a list with an object as key
+g Retrieving all rows from sqlce in a single fetch
+g changing date format from dd/MM/yyyy to MM/dd/yyyy
+g Storing arraylist in IsolatedStorage
+g UWP Enable local network loopback
+g How to get textbox values inside the table
+g How to block onbeforeload JavaScript in web browser control?
+g Get height and width of UIElement?
+g Web Service built in C# to retrieve data from mySQL database
+g How can I set different colors in a ZedGraph histogram?
+g C# Pause/Stop System.Diagnostics.Process
+g regex how to extract strings between delimiters and not double delimiters
+g Restricting Input in WPF
+g Raising a function by timer
+g Separate a string with a certain pattern into a dictionary
+g User name in Url asp.net
+g c# dynamically pass string method at run time for string manipulation
+g Is there a way to override the empty constructor in a class generated by LINQtoSQL?
+g How to make forward-only, read-only WMI queries in C#?
+g POST Form Data Without Submit
+g How to store Requested Page url?
+g Give element name programmatically
+g How to use HtmlElement in if statement [webbrowser/winforms] in c#
+g Evaluate javascript to plain text using C#, .NET 3.5
+g Injecting OData v4 into MVC 6
+g how to compare two arrays of objects
+g Calling a Javascript Function on LoginError Event
+g How to copy a Object<T> to an array
+g How do I query by the count of a property in nhibernate without using a detached criteria?
+g Binding data from view to ItemsPanelTemplate
+g Combining Dictionary<A,B> + Dictionary<B,C> to create Dictionary<A,C>
+g SQL CE 3.5 - Writing to a database
+g How to test expressions equality
+g Custom date format in Excel for zero
+g Transfer Byte array from server to browser
+g Copy in-memory SQLite Database to make unit tests faster
+g Check if an event has been fired at least once
+g How to pass the List of class objects from Web Service to Windows Forms app
+g NHibernate QueryOver query subclass from base
+g 3 step OATH 2.0 authentication for Assembla API POST request returns "Bad request"
+g Having a class provide default XmlElementName
+g How to programatically check if NServiceBus has finished processing all messages
+g Check number of pairs in KeyValuePair list
+g How can i copy the files in the List<string> to another directory?
+g Make square image
+g Ninject generic binding resolve throws ActivationException
+g Using @TextBoxFor with @model IEnumerable<>
+g View Model Patterns and usage in ASP.NET MVC3 (Also, using EF 4.1)
+g Webbrowser disable all audio output - from online radio to youtube
+g Validate Data that is being read from an Excel File with EP Plus
+g Check if array is null and has content
+g How to split a string in C#?
+g Consuming REST Webservice. API Key Authentication
+g LINQ and EF with string.StartWith(char c)
+g Is it possible to change headers order using HttpWebRequest?
+g Reading xml comment outside the tag
+g Possible to loop through a list of variables, with names differ by numbers only?
+g Conditional Breakpoints on Call Stack
+g How to insert an integer into a database through command prompt
+g How to get the registered user control to code behind in c#?
+g how to change checkbox size in datagridview winform
+g Return unique list ordered by repeated/duplicated item count
+g How can I toggle a TextBlock's visibility in a DataTrigger?
+g Sorting a List in C# using List.Sort(Comparison<T> comparison
+g Forcing an update of a property from within a custom control
+g How to convert Text values to number values in Excel 2003 (Number stored as Text), using C#
+g Unable to post json using c# to google cloud endpoint
+g How to upload a photo to 500px using the BackgroundUploader in Windows Phone 8.1?
+g TreeView binding to a class with a list of another class (and so on)
+g Consuming encapsulated member event
+g Linq take 3 records from each category
+g Monitor file copy during compilation
+g How should a complex Json response be decoded?
+g C# Directory Services Double Addition to List
+g Selecting an object from a list based on the name
+g How to save UIElements in a Database and restore them later?
+g ZPL passing parameters to the labels prints with misplaced data
+g Hide and Show Div content inside of a JQuery dialog
+g LINQ : select all that match a single field, merge on original
+g Connect with OleDbConnection
+g Pass file name to .exe in registry key
+g Extracting image link through regex in C#
+g Searching dates in SQL over C# does not work correctly
+g How to get HttpClient response time when running in parallel
+g Storing reader information in C#
+g NHIbernate OR Criteria Query
+g How to get SelectedDataKey value in the GridView RowCommand Event?
+g How to determine if XElement.Elements() contains a node with a specific name?
+g C# interweave two uneven List into a new List
+g Parsing an HREF from an HTML string using a regular expression
+g Get current edited text from tag with attribute contenteditable='true'
+g Download a file from TFS based on Change Set Number
+g Formatting TextboxFor content 
+g How to deserealize JObj Collection
+g Why RestSharp get 400 - BadRequest while Fiddler get 200 - OK?
+g Exclude a file extension in System.IO.Directory.GetFiles()
+g How do you find at what line a word is located in a textbox?
+g How to get only revised words from word document?
+g C# - Visual Studio 2012 Plugin - Copy (- Paste) all Props of a class (as Xalm powertoys does)
+g Minimize/Maximize/Close buttons' tooltip and Devexpress lookAndFeel
+g How to add items to a System.Collections.Generic.List object using PowerShell?
+g How to separate the year from a birthdate?
+g Mouse wait to click action
+g How to get Last Index Of "%" in a string?
+g C# Selenium - Finding Element On Continuously Growing Page
+g MongoDB Create dynamic Query
+g How can I change an 2D array to a 2D list and then back to a 2D array again?
+g Need generic utility C# method for populating ASP.NET DropDownList
+g C# Thread Pool Cross-Thread Communication
+g SmtpClient.SendAsync - How to stop the application exiting before the callback is triggered?
+g Translating Url to another language for SEO purposes in asp.net mvc4
+g "IN" Operator in Linq
+g How to deserialize a UDPTunnel in protobuf.net
+g How do you actually implement the Search Contract? (C#)
+g Filtering out bad characters using a Regular Expression
+g In WinRT, how to Reflect for Properties that implement an Interface?
+g How to handle class visibility/access correctly
+g how to get a last value from Page.Request.Url?
+g How to Compare two histograms of images?
+g Creating excel document as attachment on a sharepoint list
+g Convert code to C# from VB script
+g Compare class type without instance
+g Using an interface to convert an object from one type to another?
+g How to do an update with Linq, Lambda and EF
+g Detect when WPF textbox has finished rendering after pasting text
+g Win8 C# Metro dispatcher and RPC_E_WRONG_THREAD
+g C#: how to get first character of a string?
+g What's the most efficient way to access the value of a match?
+g Getting full sentences from index of word
+g c#, Find if String has image links and replace them with html hyperlinks
+g Adding collection of Images in Xaml
+g Getting QueryStrings from WebRequest
+g Implementing jaccard similarity in c#
+g Converting .tiff file to PDF
+g Add button column to datatable
+g Use WPF expander in Winforms with more than one control
+g How do I import quickgraph library to my project
+g Add custom attribute to an HTML input element with C#
+g Set Combo Box in Datagridview Column
+g How do I determine the colour mode of an uploaded image in ASP.Net
+g How to call the function?
+g how do i force a DLL to be built with the exe so there is only one file?
+g Creating a class implementing an interface dynamically
+g XmlNode.SelectNode with multiple attribute
+g Saving textbox text into XML file
+g How to code a Nancy bind with a mix of array and non-array post variables
+g Good ways of converting letters to numbers in naive RSA implementation?
+g ASP.NET MVC Removed Controller QueryString Action
+g How to write name of the file's owner to the file using c#?
+g C# Open files from listbox file listing
+g FileStream Read/Write
+g C# Issue creating method to delete a registry key
+g update the datetime value of a table MS SQL from ASP.NET code
+g Sending >48k to a WCF Data Service (OData) 413 error
+g Java ZIP File copy and paste from one zip to another
+g Traversing Connections through the Facebook C# API
+g Need help with output custom shape in ConsoleApplication - C#
+g How do you convert a string to ascii to binary in C#?
+g binding the gridview view .....which is in edit template of another 
+g Multi-column duplicates query
+g How can i create a filter by with Linq?
+g Best way to interact with Command Line application
+g How to get value of a control which is in repeater item from dropdownlist's selecetedchanged event which in the same repeater item?
+g Upload file on SSL Page
+g How to detect nonpresent devices using C#
+g What is the best way of communicating from web->web api->console app and back again?
+g Poll C# app's memory usage at runtime?
+g .NET Xml Serialization: Integer Element with Attribute?
+g Is it possible to create DataRelation 1:1 in c#?
+g How to set a foreign key value in EF?
+g Deserialize tag with body and attributes to an object
+g Commit after MessageBox in C#
+g How do I declare a chain of responsibility using decorators in Ninject?
+g Asynchronous waiting while C# function is executing
+g UrlEncode through a console application?
+g ShiftPageNumbers with iTextSharp
+g How I create custom button in a messagebox in .net form application?
+g How to throw compilation error from an attribute?
+g How to check condition for nullable boolean type?
+g Capturing Effective log in and log out time in a system?

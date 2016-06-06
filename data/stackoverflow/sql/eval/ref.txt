@@ -1,0 +1,300 @@
+10342	calculate the rank of a column by incrementing its total count by 1 where a given condition is met
+10342	rank column values greater than a particular values based on frequency of occurrence
+10342	get rank within table for any number
+10492	joining 3 tables to retrieve 3 values on some common intersecting condition
+10492	select column values from combination of tables
+10492	join two table with inner join and two external keys
+11127	find the user who is the highest bidder 
+11127	select columns from a table row where one of the column matches a column from another table with maximum occurrence in the other table
+11127	selecting the maximum bids overall
+12017	retrieve all the records from a group of logged tables for a specified table
+12017	select rows from a table such that in case one of the column is null, its value is populated from available value in next row
+12017	returning a set of hstore values as a set of records of a table type
+12306	find the average time in hours, mins and seconds between 2 values and show them in groups of another column
+12306	group rows of a table and find average difference between them as a formatted date
+12306	ms access average after subtracting
+12616	joining 2 tables to calculate the count of a given column value and its corresponding percent for some given values
+12616	select count and percentage of total number of rows of the table present in each group
+12616	sql - count and percent
+12806	retrieving only the time values of a given field from a table
+12806	view a table column in time format
+12806	datetime implementation in php mysql
+12857	get the sum of data from 2 tables for a given date value
+12857	select sum of one column each from two tables where another date column in each table matches a specific date value
+12857	inserting sum of 2 tables into a row
+13074	calculate the difference of the total sum of 2 columns from 2 tables matching a common condition
+13074	find difference between values of columns in 2 tables
+13074	calculate the credit amount the employee
+13439	calculate the 5 lowest values for a combination of 2 columns in a table provided they are non zero
+13439	select lowest 5 values excluding 0 from multiple columns of a table
+13439	mysql/php determine lowest values in table with multiple value columns
+14298	find count for all values in a table which are present more than once in other table
+14298	retrieve the count of a value grouped by a given column by joining values aggregate that greater than 1 from another table 
+14298	count number of unique users which loggedin more than once
+14300	return max value of a given id from 2 tables put together with null values replaced by 0 
+14300	select column values from a table with maximum value of one column if present and 0 if null
+14300	is there a way i can make the case when test one of the results rather than running it twice?
+14481	combine values from multiple tables by joining them based on column value matching
+14481	select values for one column by joining 2 tables with intersecting values satifying a set of given set of conditions together
+14481	mysql relational question. get results when m:n null
+14770	replace a numerical pattern in string column with a string constant using regular expressions
+14770	replace numbers in the value for a column with a static string value 
+14770	how to replace characters before a number in sql
+1496	select all values from a table where a column value contains a question mark between its first and last letter
+1496	select rows from a table where a column contains a specified string
+1496	sqlite binding within string literal
+15264	calculate the sum of total upload and download bandwidth together between a given date range
+15264	find sum of two columns of a table whose rows have a date column satisfying a between condition
+15264	sum of 2 tables query using subqueries
+15580	find no. of rows in each set of rows grouped based on a condition
+15580	returning the total count of the records grouped by some columns having some condition
+15580	does mysql accept order by "nothing" limit "all" when i only want to get number of results in a search query?
+16087	return max non null date and all columns from two tables sorted in the order of decreasing dates
+16087	select first expression which evaluates to a non null value from a set of expressions containing columns from join of two tables
+16087	sort posts by newest child's timestamp or own timestamp
+17610	combine rows of a table based on same values of a column
+17610	select the id values from a table that are strictly intersecting another table and satisfying certain conditions 
+17610	join query on multiple rows to search in
+17724	aggregate all status values together separated by / grouped by id 
+17724	show '/' separated values of a column for all rows grouped using another column
+17724	how to group by a column and show as one row
+1798	select columns from a table joined with other 2 tables on common intersecting values for a condition where the count for the instances of some conditions less than or equal to 2 from another table
+1798	select rows from combination of tables where one of the tables contains at most 2 rows satisfying a condition
+1798	inner join with 3 tables
+18154	convert columns of a table to rows by adding new rows for different columns
+18154	showing columns from 3 tables put together 
+18154	how do i convert columns into rows for each status
+18756	for a particular value a column in a table, combine it with various other tables such that the records faced have all values from some tables and matching values from some other tables
+18756	select 3 columns from the join of 4 tables for some intersecting common values for a given id
+18756	mysql how to get two results with one query from different tables
+18884	find ratio of maximum values of 2 columns for each unique value of another column
+18884	return the max ratio between two columns based on some clause aggregated by the column
+18884	mysql divide two values from same column
+19506	calculate the rank of players whose score is greater than a given value
+19506	find count of rows from a table which satisfy a numeric comparison condition
+19506	sql php recordset position
+19812	find maximum and average values of a column if grouped based on some columns of the table
+19812	finding the employees who earn the maximum salary in a department and comparing them to the avg salaries
+19812	combining columns
+19953	select all data from a table joining another table based on multiple conditions being satisfied to restrict the range of data for a date range
+19953	select records from a join of tables using date filters on columns 
+19953	sql select the available rooms by date cheking
+19988	bulk inserting data from a csv into a table whose whose column names are taken from another table on the fly
+19988	bulk populate a staging table from a csv file and insert records from staging table to a database table by allowing explicit values to be inserted into identifying column of the database table
+19988	sql server identity related error
+20788	combine rows of a table with rows of other tables in case required conditions are satisfied
+20788	joining 3 tables together on some id value
+20788	more than one join mysql?
+20871	find the latest timestamps of interactions by id which are still active
+20871	select maximum value of a column for each group of rows from a combination of tables and order the output by one of the colummns
+20871	mysql query two tables and max timestamp
+21246	get first value from start of alphabetically sorted values in one column of a table filtered on a matching condition
+21246	selecting the top 1 smallest value for a column where a condition is met.
+21246	how to fetch only a value from mysql database?
+21363	order rows of a table based on a column in descending order
+21363	retrieve all data from a table in the decreasing order of time ie, the most recent record displayed first
+21363	php mysql sort by date (newest)
+21472	select 10 rows till a specified index x when the table rows are ordered by a column
+21472	show the records starting from (x-10) position on the table upto 10 rows from a table in the decreasing order of id 
+21472	select the previous x rows
+21712	select all values from a table for the current month
+21712	select rows from a table where value of a column matches current month in numeric format (0-12)
+21712	select month day year as date in mysql?
+21892	joining 2 tables to return all possible values that satisfy one or both of the given conditions 
+21892	select value of one of the 2 columns for which the other column has a specified value
+21892	extract records from mysql based on results from other table
+21985	filter table rows using partial string match and order the resultant rows alphabetically and by length of the column
+21985	select all records from a table that satisfy a condition in the pattern of a column value and are ordered in the increasing order of the lenght and value of a given column. 
+21985	sorting username
+22055	select columns from the join of two table selections on a given clause with the second table in the join returns some average values for a column
+22055	select values from join of tables where values of one column in a table are aggregated and rounded based on joining column
+22055	mysql join of two select result
+22498	bring together the values from 2 tables where the values in the second table match a given condition from the first table for each row returned
+22498	select values of some columns of first output row from another table where one of the column of the two tables matches
+22498	mysql join with limit 1 on joined table
+22925	joining 2 tables to retrieve some basic columns from both
+22925	select column values from combination of tables
+22925	return a result even if select is empty
+23598	retrieve data from a table where some records from another table satisfy a set of conditions 
+23598	select columns from those rows of a table where the value of one of the columns matches value of a column from atleast one row of another table
+23598	sql query to find false negatives w.r.t data matching or entity resolution
+24830	find the counts of distinct ids from a table that were created with an interval of 1 month for the past 4 months
+24830	select rows from a table where other rows exist with value of a column falling in a specific date range
+24830	query for "how many users submitted content each month"
+25242	return values from a table in the decreasing order of some values for the most recent date where a given condition is met
+25242	select specified columns from first row among ordered rows of a table
+25242	how to use max and top in sql query in oracle?
+25701	select records from 'table' where specified columns are null or meet a particular condition
+25701	selecting values from a table where a set of parameters is equal to a set of fields with all null values replaced
+25701	dynamic where clause with set number of columns
+25942	insert a string pattern in the value of a table column
+25942	replacing the values in a column that match
+25942	grabbing some part of string using sql server 2012
+26001	calculate the total number of distinct non null events for a given user
+26001	find count of distinct non-null values of a column for rows of a table satisfying a condition
+26001	fetching a table with unique or distinct values?
+26455	inner join with two other tables on some conditions and then joins another table to replace any null values in previous tables with a unique value to check if they are equal 
+26455	read rows from a joing of tables such that for some of the tables uncommitted data can also be read even if the rows are being updated by some other transactions
+26455	eliminating null rows in tsql query
+2654	select all combinations of one column each from 2 tables where a third table contains rows which has values of both the columns from two tables
+2654	selecting all possible values from the cross join of two tables and joining it with a third table on a given common condition
+2654	how to join these tables in sql
+26781	having 4 columns with values 1 to 8 arranged in the form of 2 2x2 matrices put together
+26781	select all rows from combination of multiple table joins
+26781	mysql result set concatenation column wise
+2734	select specified number of rows starting from a specified position from among rows of a table where some columns from the two tables match
+2734	select top 300 values max ids from a table ordering by their id value in the increasing order
+2734	display only the last 300 mysql results with a php pagination system
+27469	find maximum value of a column for combinations of other columns where another column of the table does not match a particular value
+27469	find the values from a table that are intersecting only at the max values and satify another condition
+27469	"select distinct" query bringing back too many unique rows
+27943	return all aggregated records by id and shipping date where there is atleast 1 record for a given shipping date
+27943	select column combinations from a table for which more than one rows exist
+27943	mysql: display duplicates matching two columns
+28990	find 1 level deep hierarchical relationship between columns of a table for one of the top level values
+28990	joining two tables and selecting values from the second table such that a condition is met in the first table and the same condition is not met in the second table
+28990	get peer column values from same table using codeigniter and mysql
+29003	find top 10 records from ordered rows of a table such that value of volumn specifies a time in seconds in last one day (24 hours)
+29003	return the first 10 unique values of a column from a table where the time of post is greater than 1 days old
+29003	how to decrease query execution time with distinct?
+29552	order by minimum value of a column from groups of rows in table joins based on one of the columns and filtering by comparing one of the columns with current date
+29552	show increasing order of prices aggregated by a hotel id by joining information for regions and their corresponding price where the end date is greater than today
+29552	using min() in multiple tables
+30078	select 25 values by joining 2 tables on 2 clauses where a given condition is satisfied
+30078	select result row count and top 25 rows satisfying specified filters from start from the join of 2 tables
+30078	mysql inner join 'unkown column'
+30867	calculate the day and the corresponding totals posts that are accepted, open, declined and published grouped by date
+30867	select sum of a column from table for rows satisfying a particular criteria for each summation for each unique value of a column based on which grouping is done
+30867	mysql: how do i remove the first row?
+30931	select rows from a join of tables with maximum value for a particular column from rows grouped based on common value for a column
+30931	selecting only maximum value for a count for each id and eliminating redundant values for count for the same id
+30931	sql: getting the full record with the highest count
+31184	group rows of table which satisfy between condition and where each group has specified number of rows
+31184	select columns from a table where a given column value is a subset of selection from the same table aggregated for some conditions met.
+31184	t-sql two where clauses on same column
+31233	return most recent date value from a table where date is less than a date value satisfying an ordinal condition
+31233	select first row from the rows of a table filtered such that a column value is less than value of that column for a subset of rows and then ordered based on column values
+31233	mysql error getting the previous dated record
+32763	join 3 tables on some conditions and retrieve data that only fits certain defined criteria
+32763	join multiple tables based on matching and comparison conditions and maintain all rows from one of the tables
+32763	mysql query ordering in join tables
+33051	select highest 10 values of a column in table and order the result by another column
+33051	show top 10 records with max ids in increasing order of id values
+33051	query result reversing
+3315	find individual and average values of columns for groups of each unique value of another column 
+3315	select 4 values by some overall aggregation from 4 tables each where a set of conditions are satisfied
+3315	pivoting data in mysql. 
+33202	combine values from multiple tables by joining them based on column value matching
+33202	joining data from 4 tables where a given condition is satisfied
+33202	joining multiple (4) tables in mysql
+3323	return the count of a given column by joining tables on some values for some given conditions satisfied
+3323	select count of rows from join of two tables which satisfy a matching condition
+3323	mysql counts based on timestamps?
+33785	find highest values of particular columns in rows of a table in which a column satisfiesa string matching condition
+33785	return max rank values for a given person by joining 3 subsets of a given table
+33785	mysql rank of more than one column of one user
+34905	retrieve a column from a table where the month of the corresponding data is the present month
+34905	select a column from rows of a table in which the month matches the current month
+34905	select birthday upcoming month
+35045	find latest record from a combination of tables based on comparison conditions on a multiple columns
+35045	selecting information from a table by joining it with it subset to find the latest request date based on a complex condition and also joining another table satisfying some condition.
+35045	need help joining a second table
+35189	group rows of a table for unique values of a column where sum of a column in a group does not match a set of values
+35189	return a column from a table aggregated for values in that column given the sum of a certain clause in a sub query is 0.
+35189	excluding from query all rows related with a value in a subquery result
+35254	return the value for the time difference between the max date of an action by a user and today
+35254	select rows from combination of tables based on column matching and find difference in months between datetime value constructed using a table column and current date
+35254	php mssql_query errors when converting date and/or time from character string
+35630	convert a varchar column to date of format dd/mm/yyyy and order the rows using the date
+35630	select date (in the format dd/mm/yyyy) and other columns from a table ordered in the increasing order of dates
+35630	select from view | order by not working
+35763	select all records from a table where the date of creation is between the last 24 hours
+35763	select rows of a table where value of a date column in between 11 pm of current day and 11 pm of previous day
+35763	how do i retrieve results from mysql where a timestamp is between 11pm yesterday and 11pm today?
+36017	select information from a table by joining it to 3 other tables on the intersecting matching values satisfying some condition
+36017	select rows from join of multiple tables based on string matching on one of the table column
+36017	sql result: non-empty categories
+36398	return top 10% values for columns in the decreasing order of a column value for the present date.
+36398	select enumerated(starting from 0) list of top 10% rows from a table based on filter on a table column
+36398	mysql select top 10% of users
+37584	find duplicate records from a table based on matching of multiple columns
+37584	finding the records from 2 tables who do not match in two main columns but have other common values
+37584	select company_id for duplicated fields in mysql
+37747	group rows of a table based on column combination after filtering based on specific values of a column
+37747	selecting a certain columns satisfying a given condition and combining it with data that does not satify that same condition
+37747	sql query for excluding a key value matching record for a specific condition
+38103	find 1 level deep hierarchical relationship between columns of 2 tables
+38103	joining 2 tables on some id to get two column values
+38103	group mysql subcategories and categories
+38364	select all values from a table where the count of instances when the salary of one record is greater than the other is 3
+38364	select rows from a table where count of rows from the table satisfying some condition is equal to 3
+38364	finding the 3rd highest salary in mysql without limit
+38591	changing a column's schema of a given table provided a specific condition is satisfied
+38591	generate sql queries to alter each column in the schema whose name contains a particular string
+38591	change column type for multiple tables with same column name
+39233	combine equal number of columns from multiple tables
+39233	show unique values from 2 tables together
+39233	display unique data from two tables
+39534	combine and filter rows from join of tables based on a column value
+39534	select intersecting values from 2 tables where a given value is satisfied
+39534	sql -- are there are any rows where a column value is greater than 6?
+39690	return the top first row of data by joining 2 tables on given values and satisfying given conditions
+39690	select top 1 row from an ordered output of conditional join of two tables
+39690	sql server, selecting random item from table where id used across another table
+39944	display increasing order of values in serial order as long as they are between 2 values
+39944	select and order all values in a column which are greater than a particular value
+39944	oracle get numbers with range
+40195	insert modified values of data from a table in temp table and update the database table with the modified values by joining it with the temp table
+40195	join every row in a table with a random row from another table
+40195	error when trying to update a row with a random value
+40469	join 3 tables on some conditions being satisfied
+40469	select rows from combination of multiple tables which satisfy a condition
+40469	3 table joins one field from one table and one field from another
+4078	calculate the total count of records from 3 tables where a set of conditions is satisfied
+4078	combine multiple tables and find count of combined records which satisfy a matching condition
+4078	mysql left join with three tables
+40955	concatenate all names from a table separated by commas
+40955	concatenate all values of a table column with comma seperator
+40955	convert rows to string in postgresql
+4349	select all rows from a table where a column value is not present in a another table selection
+4349	select rows from a table where a column does not match value of a column in subset of rows in another table
+4349	finding all polls that a specific user hasn't voted on yet
+4922	finding the difference between start and end date and showing them together
+4922	select a formatted date range from values in a table column
+4922	display two date field value formated like "monthname dd-dd, yyyy"
+4948	concatenate all non null values of a given column grouped by another column value from a table
+4948	select concatenated values of a column from all rows in each group grouped based on another column
+4948	how to concatenate values from mysql select
+5318	calculate the total time spent by an employee for the month of march in 2013
+5318	for each value of a column, find sum of difference of two columns in time difference format for the rows where some columns satisfy filter criteria
+5318	mysql subquery for max employee hours
+5706	select all records from a table for a pair of consecutive years
+5706	select all records from a table where a column value is one of two consecutive years
+5706	add one year, to a year in the where clause
+6044	select multiple columns from a table where rows are filtered based on comparison operators on column values or arithmatic operations on column values
+6044	select values a,b,c from a table where certain value is k and sum of squares of (a-k),(b-k) and (c-k) is less than the sqaure of k
+6044	mysql query to get rows in a sphere (x, y, z coordinates)?
+6096	display all records from a table where a given condition is not satisfied
+6096	select rows from a table where a different column does not match any value from a set of values
+6096	sql one to many join - do not return rows from the 'one' table if any row in the 'many' table equals x
+6125	repeat each row of a table by inserting an additional column with 2 distinct values and then find a derived value
+6125	return the values for a column based on some clause from the join of two tables with each row from the first table join with all the rows of the second table
+6125	how to create in view new row after each next row
+7383	joining data for a given id with its corresponding id value reduced by 1 satisfying a given condition
+7383	select rows from a table when other rows with a specified condition exist
+7383	collapse sql rows
+7587	calculate the minimum and maximum value grouped by a given column showing only unique values for the corresponding column 
+7587	group based on every unique value in a table column and find minimum and value of another column in each group and display these values as 2 rows for each group
+7587	query selecting rows where data doesn't change
+7692	return top 3 records from a table which satisfy any one or both of the two conditions and order the data in the decreasing order of importance and date
+7692	select first 3 rows from ordered rows of a table which satisfy a filter criteria on multiple columns
+7692	select some items and if there's not enough of them, add some other items, then sort
+8137	select all terms in a table which are like a given word irrespective of the accent or spelling
+8137	select rows from a table where a column matches a string value such that the comparison uses latin 1 charset with case insensitive and accent insensitive match
+8137	how to search for text in sql server when storing different languages
+9753	calculate the number of downloads on a given date
+9753	find no. of rows in a table for each value of a particular column
+9753	group and count in sql server 2008
+9850	order rows of a table in decreasing order of number of commas in one of the columns
+9850	select all values from a table and display them in the decreasing order of he difference between the number of values concatenated together in a field
+9850	order by number of commas
