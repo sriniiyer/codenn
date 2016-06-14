@@ -1,6 +1,11 @@
 
 
+
 **Run CODENN**
+
+See details of CODENN in our paper
+
+Summarizing Source Code using a Neural Attention Model (https://github.com/sriniiyer/codenn/blob/master/summarizing_source_code.pdf)
 
 Requirements
 
