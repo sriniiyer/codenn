@@ -24,6 +24,8 @@ def tokenizeCode(code, lang):
     typedCode = query.parseSql()
   elif lang == "csharp":
     typedCode = parseCSharp(code)
+  elif lang == "python":
+    typedCode = q.strip().decode('utf-8').encode('ascii', 'replace').split("\\s")
 
   tokens = [re.sub( '\s+', ' ', x.strip())  for x in typedCode]
   return tokens
