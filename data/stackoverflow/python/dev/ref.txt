@@ -1,0 +1,100 @@
+30115649	Get current line in Sublime Text 3 plugin
+6228375	Checking compatible total orders given by a Python list
+25080645	Sort Django query result by number of matches
+29691148	Parse entries that is within specified date using feedparser
+22001151	django-cms placeholder outside cms - how to get related model using the placeholder from the one model that is connected?
+22083477	Getting repository information using pygithub3 for Python
+26522390	Creating two lists and compare the matching
+16325720	Point in convex polygon
+29760821	Python Matplotlib - Show Tick Marks associated to Plotted Points
+6981717	Pythonic way to combine FOR loop and IF statement
+7101988	Trouble With Lists of Lists in Python
+14092493	Showing bits of a string in python with a timer
+30772577	How to extend a numpy.ndarray
+10248044	Modifying a Django ModelForms fields
+10767154	Loading c dll in python
+27723619	How to execute a path in Windows from Python program?
+30598152	How to update a document using elasticsearch-py?
+30370992	Extract emoticons from a text
+14701711	Automatic loading of templates in django is not working for my app
+25792747	Add rows to a csvfile without creating an intermediate copy
+34427751	How do I rename a filename in python
+13574132	How can I move a word within a string?
+34113208	Creating a Dialpad Using Tkinter
+14222110	Extracting numpy array slice from numpy.argmax results
+5746620	PyGTK set icon of window with stock image
+24999880	Checking user input via raw_input method
+28864308	Boto: Dynamically get aws_access_key_id and aws_secret_access_key in Python code from config?
+8356501	Python format tabular output
+32145159	python convert RSA key (in PEM format) to hex string
+20365402	Python regex to match string
+21282941	Extract x and y values from a list
+27628471	Subclass of ConfigParser has no attribute _sections
+20719347	Python compile a script within a GUI
+4358771	Updating a Haystack search index with Django + Celery
+16212232	How to merge and split numpy array along the axis?
+18537267	Connector/python slow insertion with tripled quotes
+13822386	How to grab text from each xml tag when the tags have multiple duplications
+14084234	pandas efficient way to get first filtered row for each DatetimeIndex entry
+3961265	Get Line Number of certain phrase in file Python
+13441539	django filter : can filter with tuple?
+30810121	Python -Switch state of turtle pen using single keypress
+33916150	filter json data from Django model
+2514931	Generate a table of contents from HTML with Python
+28430323	How to resample / downsample an irregular timestamp list?
+30770316	Arrange line in front of bars in Matplotlib plot with double y axes
+33157980	python check for duplicates by reversing strings
+16227055	Does generating a list with multiplication produce references
+3472048	Create x lists in python dynamically
+22895751	Exposing reusable functions to deal with HTTP POST methods
+7414481	Django with lettuce and splinter, opens the browser but doesn't show anything
+3788229	Help with an if else loop in python
+351760	Python method arguments with spaces
+13434146	Plotting values in matrix corresponding to the index in an array with Matplotlib in Python
+18774735	Searching a many to many database using google datastore
+28866424	Making simple game of Battleship
+2019379	saving data in Bulk using Django
+33458893	Using split by tab in Python adds a character to text which raises error in MySQL
+19491295	Factorial function in Python
+28238920	How to set a timeout for gurobi using python
+11980062	In python, how do you import all classes from another module without keeping the imported module's namespace?
+18465822	Remove number of bytes from beginning of file
+31866591	Spark two RDD join issue
+23158910	Accessing Data from .mat (version 8.1) structure in Python
+5429577	showing progress while spawning and running subprocess
+11350464	Extract image links from the webpage using Python
+11916934	can I make X-server to notify me only when cursor exactly where I need?
+8562079	Python: counting specific words in file of corpus
+23326123	Python several variables/functions resutl same line
+20925772	Sending bytes via UDP packets without further conversion
+5690213	How to check if a template exists in Django?
+8650999	Using python with selenium to scrape dynamic web pages
+1485660	Return a list of dictionaries that match the corresponding list of values in python
+14726296	How to make PyQt window state to maximised in pyqt
+20065430	How to delete rects/sprites with python and pygame
+33684818	Count frequence, how to take two word each time?
+394465	Python POST data using mod_wsgi
+33654979	find all the linked IDs in a text file with each row has two IDs that are linked
+23152883	assign names to elements of unknown size list in python
+3300464	How can I get dict from sqlite query?
+33324324	i want to open n number of integer in one row in Python
+31349868	KML parsing child elements using django
+4028267	Print latex-formula with python
+182229	What do I need to import to gain access to my models?
+6941811	Send Email to multiple recipients from .txt file with Python smtplib
+18447433	Python: Sort a list according to two attributes
+27217111	labeling, numbering loop elements + summing them up
+29089085	Format a string with a space between every two digits
+30101793	django-admin-bootstrapped messing with DateField, TimeField and PointField
+5923792	Python sorting a file by frequency
+31013454	add content to existing docx with python-docx
+7331462	Check if a string is a possible abbrevation for a name
+2451821	String formatting named parameters?
+23072247	Routing Cherrypy web apps(fail to road resource)
+23436220	A trailing zero appears inconsistently on my DecimalField
+29397725	upload files using a number associated with each file instead of the name of the file
+1046584	Unable to put a variable in Python's print
+34029573	Get amplitude range from input device using PortAudio / PyAudio
+13262170	Stop New Relic / Celery From Polluting Logs on Heroku
+5225780	Turn off a warning in sqlalchemy
+11861704	How I can make same results on cx_Oracle and Sql * Plus?
