@@ -4,6 +4,7 @@
 # CSE 628: Natural Language Processing
 # Stony Brook University
 # March 8, 2014
+# original version at https://github.com/rishijosan/sentimentAnalysis
 #===============================================================================
 
 import nltk
@@ -11,7 +12,6 @@ from  nltk.probability import FreqDist
 from collections import OrderedDict
 import numpy as np
 from sklearn import svm
-import pdb
 import re
 from nltk import PorterStemmer
 porter = PorterStemmer()
