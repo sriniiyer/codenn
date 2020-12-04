@@ -86,7 +86,7 @@ function main()
 	cmd:text()
 	opt = cmd:parse(arg)
 	local working_dir = os.getenv("CODENN_WORK")
-
+    print(working_dir .. "/vocab." .. opt.language)
 	local vocabFile = io.open(working_dir .. "/vocab." .. opt.language, 'r')
 	local vocab = JSON:decode(vocabFile:read())
 	vocabFile:close()

@@ -31,11 +31,11 @@ def parseCSharp(code):
 
 
 if __name__ == '__main__':
-  print parseCSharp("public Boolean SomeValue {     get { return someValue; }     set { someValue = value; } }")
-  print parseCSharp("Console.WriteLine('cat'); int mouse = 5; int cat = 0.4; int cow = 'c'; int moo = \"mouse\"; ")
-  print parseCSharp("int i = 4;  // i is assigned the literal value of '4' \n int j = i   // j is assigned the value of i.  Since i is a variable,               //it can change and is not a 'literal'")
+  print(parseCSharp("public Boolean SomeValue {     get { return someValue; }     set { someValue = value; } }"))
+  print(parseCSharp("Console.WriteLine('cat'); int mouse = 5; int cat = 0.4; int cow = 'c'; int moo = \"mouse\"; "))
+  print(parseCSharp("int i = 4;  // i is assigned the literal value of '4' \n int j = i   // j is assigned the value of i.  Since i is a variable,               //it can change and is not a 'literal'"))
   try:
-    print parseCSharp('string `fixed = Regex.Replace(input, "\s*()","$1");');
+    print(parseCSharp('string `fixed = Regex.Replace(input, "\s*()","$1");'));
   except:
-    print "Error"
+    print("Error")
 

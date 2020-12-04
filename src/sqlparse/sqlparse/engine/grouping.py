@@ -8,7 +8,7 @@ from sqlparse import tokens as T
 try:
     next
 except NameError:  # Python < 2.6
-    next = lambda i: i.next()
+    next = lambda i: i.__next__()
 
 
 def _group_left_right(tlist, ttype, value, cls,
@@ -209,9 +209,7 @@ def group_identifier(tlist):
     idx = 0
     token = _next_token(tlist, idx)
     while token:
-        identifier_tokens = [token] + list(
-            _consume_cycle(tlist,
-                           tlist.token_index(token) + 1))
+        identifier_tokens = [token] + list(_consume_cycle(tlist,tlist.token_index(token) + 1))
         # remove trailing whitespace
         if identifier_tokens and identifier_tokens[-1].ttype is T.Whitespace:
             identifier_tokens = identifier_tokens[:-1]

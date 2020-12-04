@@ -17,5 +17,5 @@ def tokenizeRegex(s):
   return results
 
 if __name__ == '__main__':
-  print tokenizeRegex("^discount[^(]*\\([0-9]+\\%\\)$")
-  print tokenizeRegex("'helloworld'")
+  print(tokenizeRegex("^discount[^(]*\\([0-9]+\\%\\)$"))
+  print(tokenizeRegex("'helloworld'"))
