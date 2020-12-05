@@ -13,11 +13,11 @@ START = 3
 END = 4
 
 def tokenizeNL(nl):
-  nl = nl.strip().decode('utf-8').encode('ascii', 'replace')
+  nl = nl.strip()
   return re.findall(r"[\w]+|[^\s\w]", nl)
 
 def tokenizeCode(code, lang):
-  code = code.strip().decode('utf-8').encode('ascii', 'replace')
+  code = code.strip()
   typedCode = None
   if lang == "sql":
     query = SqlTemplate(code, regex=True)
@@ -43,9 +43,12 @@ def buildVocab(filename, code_unk_threshold, nl_unk_threshold, lang):
   tokens = collections.Counter()
 
   for line in open(filename, "r"):
-    qid, rid, nl, code, weight = line.strip().split('\t')
-    tokens.update(tokenizeCode(code, lang))
-    words.update(tokenizeNL(nl))
+    if len(line.strip().split('\t')) == 5:
+        qid, rid, nl, code, weight = line.strip().split('\t')
+        tokens.update(tokenizeCode(code, lang))
+        words.update(tokenizeNL(nl))
+    #tokens.update(tokenizeCode(code, lang))
+    #words.update(tokenizeNL(nl))
 
   token_count = END + 1
   nl_count = END + 1
@@ -83,10 +86,10 @@ def get_data(filename, vocab, dont_skip, max_code_length, max_nl_length):
   dataset = []
   skipped = 0
   for line in open(filename, 'r'):
-
-    qid, rid, nl, code, wt = line.strip().split('\t')
-    codeToks  = tokenizeCode(code, vocab["lang"])
-    nlToks = tokenizeNL(nl)
+    if len(line.strip().split('\t'))==5:
+        qid, rid, nl, code, wt = line.strip().split('\t')
+        codeToks  = tokenizeCode(code, vocab["lang"])
+        nlToks = tokenizeNL(nl)
 
     datasetEntry = {"id": rid, "code": code, "code_sizes": len(codeToks), "code_num":[], "nl_num":[]}
 
@@ -108,8 +111,8 @@ def get_data(filename, vocab, dont_skip, max_code_length, max_nl_length):
     else:
       skipped += 1
 
-  print 'Total size = ' + str(len(dataset))
-  print 'Total skipped = ' + str(skipped)
+  print('Total size = ' + str(len(dataset)))
+  print('Total skipped = ' + str(skipped))
 
   f = open(os.environ["CODENN_WORK"] + '/' + os.path.basename(filename) + "." + lang, 'w')
   f.write(json.dumps(dataset))

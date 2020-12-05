@@ -2,7 +2,7 @@ import sqlparse
 from sql.ParseTypes import *
 import pdb
 import re
-from regexp_tokenizer import tokenizeRegex
+from .regexp_tokenizer import tokenizeRegex
 
 class SqlTemplate:
 
@@ -62,9 +62,9 @@ class SqlTemplate:
       tok.value = "CODE_HEX"
 
   def __hash__(self):
-    return hash(tuple([str(x) for x in self.tokensWithBlanks])) 
+    return hash(tuple([str(x) for x in self.tokensWithBlanks]))
 
-  def __init__(self, sql, regex=False, rename=True):  
+  def __init__(self, sql, regex=False, rename=True):
 
     self.sql = SqlTemplate.sanitizeSql(sql)
 
@@ -123,7 +123,7 @@ class SqlTemplate:
 
     for tok in tokenList.tokens:
       if isinstance(tok, sqlparse.sql.TokenList):
-        subQuery = self.identifySubQueries(tok)  
+        subQuery = self.identifySubQueries(tok)
         if (subQuery and isinstance(tok, sqlparse.sql.Parenthesis)):
           tok.ptype = SUBQUERY
       elif str(tok) == "select":
@@ -156,7 +156,7 @@ class SqlTemplate:
         tok.ptype = WILDCARD
       elif (tok.ttype in blankTokens or isinstance(tok, blankTokenTypes[0])):
         tok.ptype = COLUMN
-  
+
   def identifyFunctions(self, tokenList):
     for tok in tokenList.tokens:
       if (isinstance(tok, sqlparse.sql.Function)):
@@ -173,8 +173,8 @@ class SqlTemplate:
     if tokenList.ptype == SUBQUERY:
       self.tableStack.append(False)
 
-    for i in xrange(len(tokenList.tokens)):
-      prevtok = tokenList.tokens[i - 1] # Possible bug but unlikely 
+    for i in range(len(tokenList.tokens)):
+      prevtok = tokenList.tokens[i - 1] # Possible bug but unlikely
       tok = tokenList.tokens[i]
 
       if (str(tok) == "." and tok.ttype == sqlparse.tokens.Punctuation and prevtok.ptype == COLUMN):
@@ -187,7 +187,7 @@ class SqlTemplate:
         self.tableStack[-1] = False
 
       if isinstance(tok, sqlparse.sql.TokenList):
-        self.identifyTables(tok)  
+        self.identifyTables(tok)
 
       elif (tok.ptype == COLUMN):
         if self.tableStack[-1]:

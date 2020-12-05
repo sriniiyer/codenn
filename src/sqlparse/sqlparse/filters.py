@@ -154,7 +154,7 @@ class IncludeStatement:
                         f.close()
 
                     # There was a problem loading the include file
-                    except IOError, err:
+                    except IOError as err:
                         # Raise the exception to the interpreter
                         if self.raiseexceptions:
                             raise
@@ -171,7 +171,7 @@ class IncludeStatement:
                                                      self.raiseexceptions)
 
                         # Max recursion limit reached
-                        except ValueError, err:
+                        except ValueError as err:
                             # Raise the exception to the interpreter
                             if self.raiseexceptions:
                                 raise
