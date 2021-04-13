@@ -19,7 +19,7 @@ class Pipeline(list):
         for filter in self:
             # Functions and callable objects (objects with '__call__' method)
             if callable(filter):
-                stream = filter(stream)
+                stream = list(filter(stream))
 
             # Normal filters (objects with 'process' method)
             else:

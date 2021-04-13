@@ -14,9 +14,9 @@ class RegressionTests(TestCaseBase):
     def test_issue9(self):
         # make sure where doesn't consume parenthesis
         p = sqlparse.parse('(where 1)')[0]
-        self.assert_(isinstance(p, sql.Statement))
+        self.assertTrue(isinstance(p, sql.Statement))
         self.assertEqual(len(p.tokens), 1)
-        self.assert_(isinstance(p.tokens[0], sql.Parenthesis))
+        self.assertTrue(isinstance(p.tokens[0], sql.Parenthesis))
         prt = p.tokens[0]
         self.assertEqual(len(prt.tokens), 3)
         self.assertEqual(prt.tokens[0].ttype, T.Punctuation)
@@ -33,19 +33,19 @@ class RegressionTests(TestCaseBase):
         # parse stand-alone comments
         p = sqlparse.parse('--hello')[0]
         self.assertEqual(len(p.tokens), 1)
-        self.assert_(p.tokens[0].ttype is T.Comment.Single)
+        self.assertTrue(p.tokens[0].ttype is T.Comment.Single)
         p = sqlparse.parse('-- hello')[0]
         self.assertEqual(len(p.tokens), 1)
-        self.assert_(p.tokens[0].ttype is T.Comment.Single)
+        self.assertTrue(p.tokens[0].ttype is T.Comment.Single)
         p = sqlparse.parse('--hello\n')[0]
         self.assertEqual(len(p.tokens), 1)
-        self.assert_(p.tokens[0].ttype is T.Comment.Single)
+        self.assertTrue(p.tokens[0].ttype is T.Comment.Single)
         p = sqlparse.parse('--')[0]
         self.assertEqual(len(p.tokens), 1)
-        self.assert_(p.tokens[0].ttype is T.Comment.Single)
+        self.assertTrue(p.tokens[0].ttype is T.Comment.Single)
         p = sqlparse.parse('--\n')[0]
         self.assertEqual(len(p.tokens), 1)
-        self.assert_(p.tokens[0].ttype is T.Comment.Single)
+        self.assertTrue(p.tokens[0].ttype is T.Comment.Single)
 
     def test_issue34(self):
         t = sqlparse.parse("create")[0].token_first()
@@ -84,7 +84,7 @@ class RegressionTests(TestCaseBase):
         self.assertEqual(len(p.tokens), 7)
         self.assertEqual(p.tokens[2].__class__, sql.IdentifierList)
         self.assertEqual(p.tokens[-1].__class__, sql.Identifier)
-        self.assertEqual(p.tokens[-1].get_name(), u'foo')
+        self.assertEqual(p.tokens[-1].get_name(), 'foo')
         sp = p.tokens[-1].tokens[0]
         self.assertEqual(sp.tokens[3].__class__, sql.IdentifierList)
         # make sure that formatting works as expected
@@ -164,7 +164,7 @@ ALTER TABLE..... ;"""
 def test_comment_encoding_when_reindent():
     # There was an UnicodeEncodeError in the reindent filter that
     # casted every comment followed by a keyword to str.
-    sql = u'select foo -- Comment containing Ümläuts\nfrom bar'
+    sql = 'select foo -- Comment containing Ümläuts\nfrom bar'
     formatted = sqlparse.format(sql, reindent=True)
     assert formatted == sql
 
@@ -194,7 +194,7 @@ def test_format_accepts_encoding():  # issue20
     sql = load_file('test_cp1251.sql', 'cp1251')
     formatted = sqlparse.format(sql, reindent=True, encoding='cp1251')
     if sys.version_info < (3,):
-        tformatted = u'insert into foo\nvalues (1); -- Песня про надежду\n'
+        tformatted = 'insert into foo\nvalues (1); -- Песня про надежду\n'
     else:
         tformatted = 'insert into foo\nvalues (1); -- Песня про надежду\n'
     assert formatted == tformatted

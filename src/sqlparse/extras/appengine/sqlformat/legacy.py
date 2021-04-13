@@ -112,15 +112,15 @@ def _get_sql(data, files=None):
         raw = files['datafile'].read()
         try:
             sql = raw.decode('utf-8')
-        except UnicodeDecodeError, err:
+        except UnicodeDecodeError as err:
             logging.error(err)
             logging.debug(repr(raw))
-            sql = (u'-- UnicodeDecodeError: %s\n'
-                   u'-- Please make sure to upload UTF-8 encoded data for now.\n'
-                   u'-- If you want to help improving this part of the application\n'
-                   u'-- please file a bug with some demo data at:\n'
-                   u'-- http://code.google.com/p/python-sqlparse/issues/entry\n'
-                   u'-- Thanks!\n' % err)
+            sql = ('-- UnicodeDecodeError: %s\n'
+                   '-- Please make sure to upload UTF-8 encoded data for now.\n'
+                   '-- If you want to help improving this part of the application\n'
+                   '-- please file a bug with some demo data at:\n'
+                   '-- http://code.google.com/p/python-sqlparse/issues/entry\n'
+                   '-- Thanks!\n' % err)
     if not sql:
         sql = data.get('data')
     return sql or ''

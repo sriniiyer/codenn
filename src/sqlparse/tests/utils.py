@@ -6,7 +6,7 @@ import codecs
 import difflib
 import os
 import unittest
-from StringIO import StringIO
+from io import StringIO
 
 import sqlparse.utils
 
@@ -31,8 +31,8 @@ class TestCaseBase(unittest.TestCase):
     def ndiffAssertEqual(self, first, second):
         """Like failUnlessEqual except use ndiff for readable output."""
         if first != second:
-            sfirst = unicode(first)
-            ssecond = unicode(second)
+            sfirst = str(first)
+            ssecond = str(second)
             # Using the built-in .splitlines() method here will cause incorrect
             # results when splitting statements that have quoted CR/CR+LF
             # characters.
@@ -42,5 +42,5 @@ class TestCaseBase(unittest.TestCase):
             fp = StringIO()
             fp.write(NL)
             fp.write(NL.join(diff))
-            print fp.getvalue()
-            raise self.failureException, fp.getvalue()
+            print(fp.getvalue())
+            raise self.failureException(fp.getvalue())

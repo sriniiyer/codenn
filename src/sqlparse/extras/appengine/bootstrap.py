@@ -3,13 +3,13 @@
 """Downloads required third-party modules."""
 
 import os
-import urllib2
+import urllib.request, urllib.error, urllib.parse
 import gzip
 import tarfile
 import tempfile
 import shutil
 import sys
-from StringIO import StringIO
+from io import StringIO
 
 HERE = os.path.abspath(os.path.dirname(__file__))
 LIB_DIR = os.path.join(HERE, 'lib')
@@ -31,7 +31,7 @@ PACKAGES = {
 def fetch_all():
     if not os.path.isdir(LIB_DIR):
         os.makedirs(LIB_DIR)
-    for url, targets in PACKAGES.iteritems():
+    for url, targets in PACKAGES.items():
         if not _missing_targets(targets):
             continue
         sys.stdout.write(url)
@@ -42,7 +42,7 @@ def fetch_all():
 
 
 def fetch(url, targets):
-    blob = urllib2.urlopen(url).read()
+    blob = urllib.request.urlopen(url).read()
     gz = gzip.GzipFile(fileobj=StringIO(blob))
     tar = tarfile.TarFile(fileobj=gz)
     tmpdir = tempfile.mkdtemp()

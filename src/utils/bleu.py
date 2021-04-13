@@ -64,8 +64,8 @@ def normalize(s):
 
 def count_ngrams(words, n=4):
     counts = {}
-    for k in xrange(1,n+1):
-        for i in xrange(len(words)-k+1):
+    for k in range(1,n+1):
+        for i in range(len(words)-k+1):
             ngram = tuple(words[i:i+k])
             counts[ngram] = counts.get(ngram, 0)+1
     return counts
@@ -79,14 +79,14 @@ def cook_refs(refs, n=4):
     maxcounts = {}
     for ref in refs:
         counts = count_ngrams(ref, n)
-        for (ngram,count) in counts.iteritems():
+        for (ngram,count) in counts.items():
             maxcounts[ngram] = max(maxcounts.get(ngram,0), count)
     return ([len(ref) for ref in refs], maxcounts)
 
-def cook_test(test, (reflens, refmaxcounts), n=4):
+def cook_test(test, xxx_todo_changeme, n=4):
     '''Takes a test sentence and returns an object that
     encapsulates everything that BLEU needs to know about it.'''
-    
+    (reflens, refmaxcounts) = xxx_todo_changeme
     test = normalize(test)
     result = {}
     result["testlen"] = len(test)
@@ -104,11 +104,11 @@ def cook_test(test, (reflens, refmaxcounts), n=4):
                 min_diff = abs(reflen-len(test))
                 result['reflen'] = reflen
 
-    result["guess"] = [max(len(test)-k+1,0) for k in xrange(1,n+1)]
+    result["guess"] = [max(len(test)-k+1,0) for k in range(1,n+1)]
 
     result['correct'] = [0]*n
     counts = count_ngrams(test, n)
-    for (ngram, count) in counts.iteritems():
+    for (ngram, count) in counts.items():
         result["correct"][len(ngram)-1] += min(refmaxcounts.get(ngram,0), count)
 
     return result
@@ -119,11 +119,11 @@ def score_cooked(allcomps, n=4, ground=0, smooth=1):
         for key in ['testlen','reflen']:
             totalcomps[key] += comps[key]
         for key in ['guess','correct']:
-            for k in xrange(n):
+            for k in range(n):
                 totalcomps[key][k] += comps[key][k]
     logbleu = 0.0
     all_bleus = []
-    for k in xrange(n):
+    for k in range(n):
       correct = totalcomps['correct'][k]
       guess = totalcomps['guess'][k]
       addsmooth = 0
@@ -139,7 +139,7 @@ def score_cooked(allcomps, n=4, ground=0, smooth=1):
     all_bleus.insert(0, logbleu)
 
     brevPenalty = min(0,1-float(totalcomps['reflen'] + 1)/(totalcomps['testlen'] + 1))
-    for i in xrange(len(all_bleus)):
+    for i in range(len(all_bleus)):
       if i ==0:
         all_bleus[i] += brevPenalty
       all_bleus[i] = math.exp(all_bleus[i])
@@ -196,5 +196,5 @@ if __name__ == '__main__':
   for row in sys.stdin:
     predictions.append(row)
   (goldMap, predictionMap) = computeMaps(predictions, reference_file) 
-  print bleuFromMaps(goldMap, predictionMap)[0]
+  print(bleuFromMaps(goldMap, predictionMap)[0])
 

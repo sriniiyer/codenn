@@ -55,11 +55,11 @@ class SVM:
         self.noFeat = len(trainFreq)
 
         #Get Keys to maintain Order
-        self.trainKeys = trainFreq.keys()
+        self.trainKeys = list(trainFreq.keys())
 
         #Create OrderedDict for features: Use this as sample for all files
         ordFeat = OrderedDict()
-        for key in trainFreq.keys():
+        for key in list(trainFreq.keys()):
             ordFeat.update( {key: trainFreq.freq(key)} )
 
         posFeatList = self.featureList(posTrainCorpus)
@@ -93,7 +93,7 @@ class SVM:
 
         i = 0
         for key in self.trainKeys:
-            if fileFreqDist.has_key(key):
+            if key in fileFreqDist:
                 listItem[i] = fileFreqDist.get(key)
             i = i + 1
         return listItem
@@ -116,9 +116,9 @@ class SVM:
         negTestarr = np.array(negTestFeatList)
 
         # prediction result stored in array which is the converted to list and added to opt list
-        print "Bad identify rate = " + str(sum(np.array(self.docClassifier.predict(posTestarr)).tolist()) / 116.0)
-        print "Good elimination rate = " + str(sum(np.array(self.docClassifier.predict(negTestarr)).tolist()) / 116.0)
-        print "Accuracy  = " + str((sum(np.array(self.docClassifier.predict(posTestarr)).tolist()) + 116 - sum(np.array(self.docClassifier.predict(negTestarr)).tolist() )) / 232.0)
+        print("Bad identify rate = " + str(sum(np.array(self.docClassifier.predict(posTestarr)).tolist()) / 116.0))
+        print("Good elimination rate = " + str(sum(np.array(self.docClassifier.predict(negTestarr)).tolist()) / 116.0))
+        print("Accuracy  = " + str((sum(np.array(self.docClassifier.predict(posTestarr)).tolist()) + 116 - sum(np.array(self.docClassifier.predict(negTestarr)).tolist() )) / 232.0))
 
     def filter(self, sent):
         testFeatList = []
@@ -132,5 +132,5 @@ if __name__ == '__main__':
     s = SVM()
     s.train("balanced/pos_train.txt", "balanced/neg_train.txt")
     s.test("balanced/pos_test.txt", "balanced/neg_test.txt")
-    print s.filter("How can i print an array?")
-    print s.filter("My code does not run")
+    print(s.filter("How can i print an array?"))
+    print(s.filter("My code does not run"))

@@ -41,13 +41,13 @@ def addBraces(code):
 
 
 if __name__ == '__main__':
-  print addBraces('def mouse():\n\tprint("cat")\n\tif (True):\n\t\tprint("mouse")\n')
-  print '----------------'
-  print addBraces('def mouse():\n  print("cat")\n  if (True):\n    print("mouse")\n')
-  print '----------------'
-  print addBraces('def mouse():\n    print("cat")\n    if (True):\n        print("mouse")\n')
-  print '----------------'
-  print addBraces('def a():\n  if True:\n    if True:\n      cat\n  def b():\n    if False:\n      print "e"\n  return 34')
+  print(addBraces('def mouse():\n\tprint("cat")\n\tif (True):\n\t\tprint("mouse")\n'))
+  print('----------------')
+  print(addBraces('def mouse():\n  print("cat")\n  if (True):\n    print("mouse")\n'))
+  print('----------------')
+  print(addBraces('def mouse():\n    print("cat")\n    if (True):\n        print("mouse")\n'))
+  print('----------------')
+  print(addBraces('def a():\n  if True:\n    if True:\n      cat\n  def b():\n    if False:\n      print "e"\n  return 34'))
 
 
 

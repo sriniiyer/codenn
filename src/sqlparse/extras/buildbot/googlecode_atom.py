@@ -138,9 +138,9 @@ class GoogleCodeAtomPoller(base.ChangeSource):
                 "content")[0].firstChild.data.split("<br/>\n <br/>")
             # Remove the action keywords from the file list
             fl = content[0].replace(
-                u' \xa0\xa0\xa0\xa0Add\xa0\xa0\xa0\xa0', '').replace(
-                u' \xa0\xa0\xa0\xa0Delete\xa0\xa0\xa0\xa0', '').replace(
-                u' \xa0\xa0\xa0\xa0Modify\xa0\xa0\xa0\xa0', '')
+                ' \xa0\xa0\xa0\xa0Add\xa0\xa0\xa0\xa0', '').replace(
+                ' \xa0\xa0\xa0\xa0Delete\xa0\xa0\xa0\xa0', '').replace(
+                ' \xa0\xa0\xa0\xa0Modify\xa0\xa0\xa0\xa0', '')
             # Get individual files and remove the 'header'
             d["files"] = fl.encode("ascii", "replace").split("<br/>")[1:]
             d["files"] = [f.strip() for f in d["files"]]

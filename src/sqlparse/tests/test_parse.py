@@ -30,73 +30,73 @@ class SQLParseTest(TestCaseBase):
         self.assertEqual(str(stmts[1]), sql2)
 
     def test_newlines(self):
-        sql = u'select\n*from foo;'
+        sql = 'select\n*from foo;'
         p = sqlparse.parse(sql)[0]
-        self.assertEqual(unicode(p), sql)
-        sql = u'select\r\n*from foo'
+        self.assertEqual(str(p), sql)
+        sql = 'select\r\n*from foo'
         p = sqlparse.parse(sql)[0]
-        self.assertEqual(unicode(p), sql)
-        sql = u'select\r*from foo'
+        self.assertEqual(str(p), sql)
+        sql = 'select\r*from foo'
         p = sqlparse.parse(sql)[0]
-        self.assertEqual(unicode(p), sql)
-        sql = u'select\r\n*from foo\n'
+        self.assertEqual(str(p), sql)
+        sql = 'select\r\n*from foo\n'
         p = sqlparse.parse(sql)[0]
-        self.assertEqual(unicode(p), sql)
+        self.assertEqual(str(p), sql)
 
     def test_within(self):
         sql = 'foo(col1, col2)'
         p = sqlparse.parse(sql)[0]
         col1 = p.tokens[0].tokens[1].tokens[1].tokens[0]
-        self.assert_(col1.within(sqlparse.sql.Function))
+        self.assertTrue(col1.within(sqlparse.sql.Function))
 
     def test_child_of(self):
         sql = '(col1, col2)'
         p = sqlparse.parse(sql)[0]
-        self.assert_(p.tokens[0].tokens[1].is_child_of(p.tokens[0]))
+        self.assertTrue(p.tokens[0].tokens[1].is_child_of(p.tokens[0]))
         sql = 'select foo'
         p = sqlparse.parse(sql)[0]
-        self.assert_(not p.tokens[2].is_child_of(p.tokens[0]))
-        self.assert_(p.tokens[2].is_child_of(p))
+        self.assertTrue(not p.tokens[2].is_child_of(p.tokens[0]))
+        self.assertTrue(p.tokens[2].is_child_of(p))
 
     def test_has_ancestor(self):
         sql = 'foo or (bar, baz)'
         p = sqlparse.parse(sql)[0]
         baz = p.tokens[-1].tokens[1].tokens[-1]
-        self.assert_(baz.has_ancestor(p.tokens[-1].tokens[1]))
-        self.assert_(baz.has_ancestor(p.tokens[-1]))
-        self.assert_(baz.has_ancestor(p))
+        self.assertTrue(baz.has_ancestor(p.tokens[-1].tokens[1]))
+        self.assertTrue(baz.has_ancestor(p.tokens[-1]))
+        self.assertTrue(baz.has_ancestor(p))
 
     def test_float(self):
         t = sqlparse.parse('.5')[0].tokens
         self.assertEqual(len(t), 1)
-        self.assert_(t[0].ttype is sqlparse.tokens.Number.Float)
+        self.assertTrue(t[0].ttype is sqlparse.tokens.Number.Float)
         t = sqlparse.parse('.51')[0].tokens
         self.assertEqual(len(t), 1)
-        self.assert_(t[0].ttype is sqlparse.tokens.Number.Float)
+        self.assertTrue(t[0].ttype is sqlparse.tokens.Number.Float)
         t = sqlparse.parse('1.5')[0].tokens
         self.assertEqual(len(t), 1)
-        self.assert_(t[0].ttype is sqlparse.tokens.Number.Float)
+        self.assertTrue(t[0].ttype is sqlparse.tokens.Number.Float)
         t = sqlparse.parse('12.5')[0].tokens
         self.assertEqual(len(t), 1)
-        self.assert_(t[0].ttype is sqlparse.tokens.Number.Float)
+        self.assertTrue(t[0].ttype is sqlparse.tokens.Number.Float)
 
     def test_placeholder(self):
         def _get_tokens(sql):
             return sqlparse.parse(sql)[0].tokens[-1].tokens
         t = _get_tokens('select * from foo where user = ?')
-        self.assert_(t[-1].ttype is sqlparse.tokens.Name.Placeholder)
+        self.assertTrue(t[-1].ttype is sqlparse.tokens.Name.Placeholder)
         self.assertEqual(t[-1].value, '?')
         t = _get_tokens('select * from foo where user = :1')
-        self.assert_(t[-1].ttype is sqlparse.tokens.Name.Placeholder)
+        self.assertTrue(t[-1].ttype is sqlparse.tokens.Name.Placeholder)
         self.assertEqual(t[-1].value, ':1')
         t = _get_tokens('select * from foo where user = :name')
-        self.assert_(t[-1].ttype is sqlparse.tokens.Name.Placeholder)
+        self.assertTrue(t[-1].ttype is sqlparse.tokens.Name.Placeholder)
         self.assertEqual(t[-1].value, ':name')
         t = _get_tokens('select * from foo where user = %s')
-        self.assert_(t[-1].ttype is sqlparse.tokens.Name.Placeholder)
+        self.assertTrue(t[-1].ttype is sqlparse.tokens.Name.Placeholder)
         self.assertEqual(t[-1].value, '%s')
         t = _get_tokens('select * from foo where user = $a')
-        self.assert_(t[-1].ttype is sqlparse.tokens.Name.Placeholder)
+        self.assertTrue(t[-1].ttype is sqlparse.tokens.Name.Placeholder)
         self.assertEqual(t[-1].value, '$a')
 
     def test_modulo_not_placeholder(self):
@@ -105,14 +105,14 @@ class SQLParseTest(TestCaseBase):
 
     def test_access_symbol(self):  # see issue27
         t = sqlparse.parse('select a.[foo bar] as foo')[0].tokens
-        self.assert_(isinstance(t[-1], sqlparse.sql.Identifier))
+        self.assertTrue(isinstance(t[-1], sqlparse.sql.Identifier))
         self.assertEqual(t[-1].get_name(), 'foo')
         self.assertEqual(t[-1].get_real_name(), '[foo bar]')
         self.assertEqual(t[-1].get_parent_name(), 'a')
 
     def test_square_brackets_notation_isnt_too_greedy(self):  # see issue153
         t = sqlparse.parse('[foo], [bar]')[0].tokens
-        self.assert_(isinstance(t[0], sqlparse.sql.IdentifierList))
+        self.assertTrue(isinstance(t[0], sqlparse.sql.IdentifierList))
         self.assertEqual(len(t[0].tokens), 4)
         self.assertEqual(t[0].tokens[0].get_real_name(), '[foo]')
         self.assertEqual(t[0].tokens[-1].get_real_name(), '[bar]')
@@ -120,22 +120,22 @@ class SQLParseTest(TestCaseBase):
     def test_keyword_like_identifier(self):  # see issue47
         t = sqlparse.parse('foo.key')[0].tokens
         self.assertEqual(len(t), 1)
-        self.assert_(isinstance(t[0], sqlparse.sql.Identifier))
+        self.assertTrue(isinstance(t[0], sqlparse.sql.Identifier))
 
     def test_function_parameter(self):  # see issue94
         t = sqlparse.parse('abs(some_col)')[0].tokens[0].get_parameters()
         self.assertEqual(len(t), 1)
-        self.assert_(isinstance(t[0], sqlparse.sql.Identifier))
+        self.assertTrue(isinstance(t[0], sqlparse.sql.Identifier))
 
     def test_function_param_single_literal(self):
         t = sqlparse.parse('foo(5)')[0].tokens[0].get_parameters()
         self.assertEqual(len(t), 1)
-        self.assert_(t[0].ttype is T.Number.Integer)
+        self.assertTrue(t[0].ttype is T.Number.Integer)
 
     def test_nested_function(self):
         t = sqlparse.parse('foo(bar(5))')[0].tokens[0].get_parameters()
         self.assertEqual(len(t), 1)
-        self.assert_(type(t[0]) is sqlparse.sql.Function)
+        self.assertTrue(type(t[0]) is sqlparse.sql.Function)
 
 
 def test_quoted_identifier():

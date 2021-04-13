@@ -2,7 +2,7 @@ import sqlparse
 from sql.ParseTypes import *
 import pdb
 import re
-from regexp_tokenizer import tokenizeRegex
+from .regexp_tokenizer import tokenizeRegex
 
 class SqlTemplate:
 
@@ -173,7 +173,7 @@ class SqlTemplate:
     if tokenList.ptype == SUBQUERY:
       self.tableStack.append(False)
 
-    for i in xrange(len(tokenList.tokens)):
+    for i in range(len(tokenList.tokens)):
       prevtok = tokenList.tokens[i - 1] # Possible bug but unlikely 
       tok = tokenList.tokens[i]
 

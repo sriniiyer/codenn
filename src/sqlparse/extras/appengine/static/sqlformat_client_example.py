@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
-import urllib
-import urllib2
+import urllib.request, urllib.parse, urllib.error
+import urllib.request, urllib.error, urllib.parse
 
 REMOTE_API = 'http://sqlformat.appspot.com/format/'
 
@@ -14,7 +14,7 @@ payload = (
     )
 
 
-response = urllib2.urlopen(REMOTE_API,
-                           urllib.urlencode(payload))
-print response.read()
+response = urllib.request.urlopen(REMOTE_API,
+                           urllib.parse.urlencode(payload))
+print(response.read())
 
