@@ -1,5 +1,5 @@
 #!/bin/bash
-
+#it's nate's practice
 LANGUAGE=$1
 GPUIDX=1
 BEAMSIZE=10
